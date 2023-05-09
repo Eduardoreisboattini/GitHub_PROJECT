@@ -1,0 +1,5 @@
+CREATE TABLE my_table (
+  id UUID PRIMARY KEY,
+  name text,
+  age int
+);

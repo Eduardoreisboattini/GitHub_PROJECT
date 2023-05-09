@@ -1,0 +1,21 @@
+DECLARE @i INT = 0;
+
+WHILE @i < 10
+BEGIN
+  PRINT 'Value of i: ' + CAST(@i AS VARCHAR(10));
+  SET @i = @i + 1;
+END
+
+IF @i > 5
+BEGIN
+  PRINT 'i is greater than 5';
+END
+ELSE
+BEGIN
+  PRINT 'i is less than or equal to 5';
+END
+
+FOR @i = 1 TO 10
+BEGIN
+  PRINT 'Value of i: ' + CAST(@i AS VARCHAR(10));
+END

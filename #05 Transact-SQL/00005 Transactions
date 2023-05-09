@@ -1,0 +1,7 @@
+BEGIN TRANSACTION;
+
+UPDATE myTable
+SET myColumn = 'New Value'
+WHERE myID = 1;
+
+COMMIT TRANSACTION;

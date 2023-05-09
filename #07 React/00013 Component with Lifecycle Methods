@@ -1,0 +1,15 @@
+import React, { useEffect } from 'react';
+
+const MyComponent = () => {
+  useEffect(() => {
+    console.log('Component mounted');
+
+    return () => {
+      console.log('Component unmounted');
+    };
+  }, []);
+
+  return <h1>Hello, Component Lifecycle!</h1>;
+}
+
+export default MyComponent;

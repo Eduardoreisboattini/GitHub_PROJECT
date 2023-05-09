@@ -1,0 +1,4 @@
+DECLARE @myVariable INT;
+SET @myVariable = 10;
+
+SELECT @myVariable;

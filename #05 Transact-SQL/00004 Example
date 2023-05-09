@@ -1,0 +1,7 @@
+BEGIN TRY
+  -- Code that may throw an error
+END TRY
+BEGIN CATCH
+  -- Handle the error
+  PRINT 'An error occurred: ' + ERROR_MESSAGE();
+END CATCH

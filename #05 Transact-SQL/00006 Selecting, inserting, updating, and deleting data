@@ -1,0 +1,7 @@
+SELECT * FROM myTable;
+
+INSERT INTO myTable (myColumn1, myColumn2) VALUES ('Value 1', 'Value 2');
+
+UPDATE myTable SET myColumn1 = 'New Value 1', myColumn2 = 'New Value 2' WHERE myID = 1;
+
+DELETE FROM myTable WHERE myID = 1;

@@ -1,0 +1,1 @@
+db.collection.updateOne({name: "John Doe"}, {$set: {age: 31}})

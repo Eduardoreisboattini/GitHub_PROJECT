@@ -1,0 +1,19 @@
+{
+  "key1": "value1",
+  "key2": 123,
+  "key3": true,
+  "key4": [1, 2, 3],
+  "key5": {
+    "nestedKey": "nestedValue"
+  }
+}
+
+//In this example, the JSON object has five key-value pairs, 
+//including a string value, a number value, a boolean value, 
+//an array value, and a nested JSON object value.
+//JSON has become a popular data format for web services and APIs because it is 
+//platform and language independent, making it easy to send and receive data
+//between different systems. 
+//It is also widely used for storing and exchanging data in NoSQL databases 
+//and document-oriented databases like MongoDB, as well as for configuration files
+//and data exchange between applications.//

@@ -1,0 +1,23 @@
+CREATE TABLE myTable (
+  myID INT PRIMARY KEY,
+  myColumn VARCHAR(50)
+);
+
+ALTER TABLE myTable ADD myNewColumn INT;
+
+CREATE VIEW myView AS
+SELECT myColumn FROM myTable;
+
+CREATE PROCEDURE myProcedure
+AS
+BEGIN
+  SELECT * FROM myTable;
+END;
+
+CREATE TRIGGER myTrigger
+ON myTable
+FOR INSERT
+AS
+BEGIN
+  -- Code to execute when a new row is inserted into myTable
+END;

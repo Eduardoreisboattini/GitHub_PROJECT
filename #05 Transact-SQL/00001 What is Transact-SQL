@@ -1,0 +1,7 @@
+Note that  is the Microsoft SQL Server dialect of SQL, and some of the commands and syntax may differ from standard SQL used in other database systems.
+
+Transact-SQL (T-SQL) is the proprietary extension to the SQL (Structured Query Language) used by Microsoft SQL Server and Sybase relational databases. T-SQL is a procedural programming language that allows developers to create complex scripts, stored procedures, and functions, as well as interact with the database in a variety of ways.
+
+T-SQL includes features such as variables, control flow statements (IF, WHILE, FOR), error handling with TRY/CATCH blocks, and support for transactions. It also includes various built-in functions and commands that enable developers to perform tasks such as selecting, inserting, updating, and deleting data from a database, creating and modifying database objects such as tables, views, stored procedures, and triggers.
+
+T-SQL is often used in enterprise-level applications, data warehousing, and business intelligence solutions, where performance and scalability are crucial. It is a powerful tool that allows developers to create efficient, scalable, and secure database solutions.
