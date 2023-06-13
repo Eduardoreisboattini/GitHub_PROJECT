@@ -1,0 +1,10 @@
+Sub SortAscending()
+    ActiveSheet.Sort.SortFields.Clear
+    ActiveSheet.Sort.SortFields.Add Key:=Range("A1"), _
+        SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+    With ActiveSheet.Sort
+        .SetRange Range("A1").CurrentRegion
+        .Header = xlYes
+        .Apply
+    End With
+End Sub

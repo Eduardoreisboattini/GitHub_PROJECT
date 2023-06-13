@@ -1,0 +1,5 @@
+Sub DeleteEmptyRows()
+    On Error Resume Next
+    ActiveSheet.UsedRange.SpecialCells(xlCellTypeBlanks).EntireRow.Delete
+    On Error GoTo 0
+End Sub

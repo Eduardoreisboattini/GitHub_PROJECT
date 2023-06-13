@@ -1,0 +1,3 @@
+Sub InsertColumn()
+    Selection.EntireColumn.Insert
+End Sub

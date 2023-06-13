@@ -1,0 +1,4 @@
+Sub InsertHyperlink()
+    ActiveSheet.Hyperlinks.Add Anchor:=Selection, Address:="http://www.example.com", _
+        TextToDisplay:="Click Here"
+End Sub

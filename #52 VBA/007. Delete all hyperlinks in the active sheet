@@ -1,0 +1,3 @@
+Sub DeleteHyperlinks()
+    ActiveSheet.Hyperlinks.Delete
+End Sub

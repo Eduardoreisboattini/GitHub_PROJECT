@@ -1,0 +1,3 @@
+Sub ClearFormatting()
+    ActiveSheet.UsedRange.ClearFormats
+End Sub

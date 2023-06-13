@@ -1,0 +1,3 @@
+Sub RemoveFilters()
+    ActiveSheet.AutoFilterMode = False
+End Sub

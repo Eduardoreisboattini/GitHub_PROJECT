@@ -1,0 +1,5 @@
+Sub InsertNewWorksheet()
+    Dim ws As Worksheet
+    Set ws = ThisWorkbook.Sheets.Add
+    ws.Name = "NewSheet"
+End Sub

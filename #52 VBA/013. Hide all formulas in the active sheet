@@ -1,0 +1,3 @@
+Sub HideFormulas()
+    ActiveSheet.DisplayFormulas = False
+End Sub

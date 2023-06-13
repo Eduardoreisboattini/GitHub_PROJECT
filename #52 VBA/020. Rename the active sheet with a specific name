@@ -1,0 +1,3 @@
+Sub RenameSheet()
+    ActiveSheet.Name = "NewName"
+End Sub

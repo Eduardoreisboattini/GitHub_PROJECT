@@ -1,0 +1,5 @@
+Sub CopyPasteValues()
+    Selection.Copy
+    Selection.PasteSpecial Paste:=xlPasteValues
+    Application.CutCopyMode = False
+End Sub

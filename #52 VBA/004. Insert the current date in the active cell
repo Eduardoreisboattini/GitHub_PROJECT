@@ -1,0 +1,3 @@
+Sub InsertDate()
+    ActiveCell.Value = Date
+End Sub
