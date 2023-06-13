@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Analytics</title>
+</head>
+<body>
+  <h1>Google Analytics</h1>
+  
+  <h2>Introduction</h2>
+  <p>Google Analytics is a web analytics service provided by Google. It allows website owners to track and analyze various aspects of their website's performance and user behavior. With Google Analytics, businesses can gain valuable insights into their audience, optimize their marketing strategies, and improve the overall effectiveness of their online presence.</p>
+  
+  <h2>Top 15 Characteristics of Google Analytics</h2>
+  <ol>
+    <li>Website Traffic Analysis</li>
+    <li>Visitor Demographics</li>
+    <li>Behavioral Analytics</li>
+    <li>Conversion Tracking</li>
+    <li>Real-Time Reporting</li>
+    <li>Goal Setting and Tracking</li>
+    <li>E-commerce Tracking</li>
+    <li>Event Tracking</li>
+    <li>Customizable Dashboards and Reports</li>
+    <li>Mobile App Analytics</li>
+    <li>Attribution Modeling</li>
+    <li>Integration with Google Ads</li>
+    <li>Advanced Segmentation</li>
+    <li>Data Import and Export</li>
+    <li>Data Privacy and Security</li>
+  </ol>
+  
+  <p>These characteristics make Google Analytics a powerful tool for businesses to measure and understand their website's performance, make data-driven decisions, and optimize their digital marketing efforts.</p>
+</body>
+</html>

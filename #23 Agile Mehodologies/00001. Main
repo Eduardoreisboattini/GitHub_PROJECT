@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AGILE Methodologies</title>
+</head>
+<body>
+  <h1>AGILE Methodologies</h1>
+  <p>
+    Agile methodologies refer to a set of principles and practices used in software development and project management. The Agile approach emphasizes flexibility, collaboration, and iterative development to deliver high-quality software solutions. It aims to address the limitations of traditional sequential or "waterfall" methods by promoting adaptive planning, continuous feedback, and incremental delivery.
+  </p>
+  <h2>Key Characteristics of Agile Methodologies:</h2>
+  <ol>
+    <li>Iterative Development: Projects are divided into small iterations or time-boxed iterations, typically called "sprints." Each sprint focuses on developing a functional increment of the software.</li>
+    <li>Collaboration: Agile methodologies emphasize teamwork, communication, and collaboration among team members, stakeholders, and customers.</li>
+    <li>Customer Involvement: Agile methodologies encourage regular customer involvement throughout the development process to ensure the software meets their needs and expectations.</li>
+    <li>Continuous Improvement: Agile teams continuously reflect on their processes and strive for continuous improvement through regular retrospectives and feedback.</li>
+    <li>Adaptive Planning: Agile methodologies promote adaptive planning, where requirements and plans are continuously refined and adjusted based on feedback and changing project needs.</li>
+  </ol>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Machine Learning</title>
+</head>
+<body>
+  <h1>Machine Learning</h1>
+  <p>
+    Machine Learning is a field of artificial intelligence that focuses on the development of algorithms and models that enable computers to learn from and make predictions or decisions based on data, without being explicitly programmed for each task. It involves the use of statistical techniques and computational algorithms to train machines to learn patterns and make intelligent decisions or predictions.
+  </p>
+  <h2>Key Concepts of Machine Learning:</h2>
+  <ul>
+    <li>Training Data: Machine learning algorithms require a large amount of labeled data to learn from. This data is used to train the algorithms and establish patterns or relationships.</li>
+    <li>Feature Extraction: Feature extraction involves selecting relevant attributes or features from the training data that can help in making accurate predictions or decisions.</li>
+    <li>Model Building: Machine learning models are built using algorithms that analyze the training data and learn patterns. These models can be based on various techniques, such as decision trees, neural networks, support vector machines, or clustering algorithms.</li>
+    <li>Model Evaluation: Once the model is built, it needs to be evaluated to assess its performance and accuracy. Evaluation metrics such as accuracy, precision, recall, or F1 score are used to measure the model's effectiveness.</li>
+    <li>Prediction or Decision Making: After the model is trained and evaluated, it can be used to make predictions or decisions on new, unseen data based on the patterns learned from the training data.</li>
+  </ul>
+</body>
+</html>
