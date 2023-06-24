@@ -1,0 +1,37 @@
+What is JSON?
+JSON (Java Script Object Notation)  is a a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate.
+It is primarly used to transmit ata between a server anda a web application, serving as a common language for exchanging data.
+
+Structure of JSON
+Objects:
+An object in JSON is represented a set of key-value pairs enclosed in curly braces {}.
+Keys are always strings, and values can be any valid JSON data type (string, number, boolean, null, object, array)
+Example:
+"name": "Herbert Richards"
+"age": "73",
+"isStudent": "true",
+
+Arrays
+An array in JSON is an ordered collection of values enclosed in square brackets []. The values can be any of valid JSON data types (string, number, boolean, null, object, array) including objects and arrays themselves. Example:
+"apple"
+"banana"
+"watermellow"
+"orange"
+"lemmon"
+"seagreen"
+
+Nested objects and arrays:
+JSON allows nesting objects and arrays within each other to represent more complex data structures.
+Example:
+{
+"name": "Herbert Richards",
+"age": "73"
+"hobbies": ["reading", "swimming", "photography", "writing", "cooking", "paiting", "collections", "automobiles"],
+"adress": {
+    "street": "Paulista Avenue",
+    "number": "900",
+    "city": "Sao Paulo",
+    "cep": "01311200",
+    District: "Vila Maria",
+    "country": "Brazil"
+}
