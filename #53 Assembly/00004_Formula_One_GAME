@@ -84,8 +84,14 @@ weather: db 100
 ; The following data is used to store the real F1 pilots of 1993.
 real_pilots: db 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 names: db "Alain Prost", "Michael Schumacher", "Nigel Mansell", "Damon Hill", "Ayrton Senna", "Mika Häkkinen", "Rubens Barrichello", "Jean Alesi", "Gerhard Berger", "Derek Warwick"
-Use code with caution. Learn more
-This code is a more complex example of how to write a game in Assembly. It simulates a Formula One race on the circuit of Monte Carlo, and the pilots are the real F1 pilots of 1993. The code uses a number of different functions to simulate the race, such as the weather, the condition of the track, and the skill of the pilots. The game ends when the race is over, and the winner of the race is returned.
+
+Use code with caution. 
+
+Learn more
+
+This code is a more complex example of how to write a game in Assembly. 
+
+It simulates a Formula One race on the circuit of Monte Carlo, and the pilots are the real F1 pilots of 1993. The code uses a number of different functions to simulate the race, such as the weather, the condition of the track, and the skill of the pilots. The game ends when the race is over, and the winner of the race is returned.
 
 The code also stores the real F1 pilots of 1993 in a separate data structure. This allows the game to randomly select a pilot from the list of real pilots, rather than just using the 10 best pilots from the game.
 

@@ -46,4 +46,3 @@ def play_game():
 
 if _name_ == "_main_":
   play_game()
-  
