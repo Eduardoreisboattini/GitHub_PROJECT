@@ -1,0 +1,22 @@
+@echo off
+
+setlocal enabledelayedexpansion
+
+set "targetFolder1=C:\Caminho\Para\Pasta01"
+set "targetFolder2=C:\Caminho\Para\Pasta02"
+set "targetFolder3=C:\Caminho\Para\Pasta03"
+
+md "%targetFolder1%"
+md "%targetFolder2%"
+md "%targetFolder3%"
+
+for /L %%i in (1,1,20) do (
+    set "fileName=#000%%i_File%%i.txt"
+    echo. > "%targetFolder1%\%fileName%"
+    echo. > "%targetFolder2%\%fileName%"
+    echo. > "%targetFolder3%\%fileName%"
+)
+
+echo Arquivos criados e inseridos nas pastas.
+pause
+

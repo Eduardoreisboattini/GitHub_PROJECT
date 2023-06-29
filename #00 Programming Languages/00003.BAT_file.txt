@@ -1,0 +1,32 @@
+@echo off
+rem Criando as pastas
+md pasta1
+md pasta2
+md pasta3
+rem Entrando na pasta1
+cd pasta1
+rem Criando 20 arquivos txt com o nome arquivo1.txt, arquivo2.txt, ..., arquivo20.txt
+for /l %%i in (1,1,20) do (
+echo Este é o arquivo %%i > arquivo%%i.txt
+)
+rem Voltando para a pasta anterior
+cd ..
+rem Entrando na pasta2
+cd pasta2
+rem Criando 20 arquivos txt com o nome arquivo1.txt, arquivo2.txt, ..., arquivo20.txt
+for /l %%i in (1,1,20) do (
+echo Este é o arquivo %%i > arquivo%%i.txt
+)
+rem Voltando para a pasta anterior
+cd ..
+rem Entrando na pasta3
+cd pasta3
+rem Criando 20 arquivos txt com o nome arquivo1.txt, arquivo2.txt, ..., arquivo20.txt
+for /l %%i in (1,1,20) do (
+echo Este é o arquivo %%i > arquivo%%i.txt
+)
+rem Voltando para a pasta anterior
+cd ..
+rem Fim do script
+echo Script concluído com sucesso!
+pause

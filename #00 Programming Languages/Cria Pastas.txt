@@ -1,0 +1,714 @@
+MD #00001.A
+MD #00002.A.NET A# A sharp
+MD #00003.A-0 System
+MD #00004.A+ A plus
+MD #00005.ABAP
+MD #00006.ABC
+MD #00007.ABC ALGOL
+MD #00008.ACC
+MD #00009.Accent Rational Synergy
+MD #00010.Ace Distributed Application Specification Language DASL
+MD #00011.Action!
+MD #00012.ActionScript
+MD #00013.Actor
+MD #00014.Ada – ISO IEC 8652
+MD #00015.Adenine Haystack
+MD #00016.AdvPL
+MD #00017.Agda
+MD #00018.Agilent VEE Keysight VEE
+MD #00019.Agora
+MD #00020.AIMMS
+MD #00021.Aldor
+MD #00022.Alef
+MD #00023.ALF
+MD #00024.ALGOL 58
+MD #00025.ALGOL 60
+MD #00026.ALGOL 68
+MD #00027.ALGOL W
+MD #00028.Alice Alice ML
+MD #00029.Alma-0
+MD #00030.AmbientTalk
+MD #00031.Amiga E
+MD #00032.AMPL
+MD #00033.Analitik
+MD #00034.AngelScript
+MD #00035.Apache Pig latin
+MD #00036.Apex Salesforce.com Inc
+MD #00037.APL
+MD #00038.App Inventor for Android s visual block language MIT App Inventor
+MD #00039.AppleScript
+MD #00040.APT
+MD #00041.Arc
+MD #00042.ARexx
+MD #00043.Argus
+MD #00044.Assembly language ASM
+MD #00045.AutoHotkey
+MD #00046.AutoIt
+MD #00047.AutoLISP   Visual LISP
+MD #00048.Averest
+MD #00049.AWK
+MD #00050.Axum
+MD #00051.B
+MD #00052.B
+MD #00053.Babbage
+MD #00054.Ballerina
+MD #00055.Bash
+MD #00056.BASIC
+MD #00057.Batch file Windows MS-DOS
+MD #00058.bc basic calculator
+MD #00059.BCPL
+MD #00060.BeanShell
+MD #00061.BETA
+MD #00062.BLISS
+MD #00063.Blockly
+MD #00064.BlooP
+MD #00065.Boo
+MD #00066.Boomerang
+MD #00067.Bosque
+MD #00068.C
+MD #00069.C – ISO IEC 9899
+MD #00070.C-- C minus minus
+MD #00071.C++ C plus plus – ISO IEC 14882
+MD #00072.C*
+MD #00073.C# C sharp – ISO IEC 23270
+MD #00074.C AL
+MD #00075.Caché ObjectScript
+MD #00076.C Shell csh
+MD #00077.Caml
+MD #00078.Carbon
+MD #00079.Catrobat
+MD #00080.Cayenne Lennart Augustsson
+MD #00081.CDuce
+MD #00082.Cecil
+MD #00083.CESIL Computer Education in Schools Instruction Language
+MD #00084.Céu
+MD #00085.Ceylon
+MD #00086.CFEngine
+MD #00087.Cg High-Level Shader Shading Language HLSL
+MD #00088.Ch
+MD #00089.Chapel Cascade High Productivity Language
+MD #00090.Charm
+MD #00091.CHILL
+MD #00092.CHIP-8
+MD #00093.ChucK
+MD #00094.Cilk also Cilk++ and Cilk plus
+MD #00095.Claire
+MD #00096.Clarion
+MD #00097.Clean
+MD #00098.Clipper
+MD #00099.CLIPS
+MD #00100.CLIST
+MD #00101.Clojure
+MD #00102.CLU
+MD #00103.CMS-2
+MD #00104.COBOL – ISO IEC 1989
+MD #00105.CobolScript – COBOL Scripting language
+MD #00106.Cobra
+MD #00107.CoffeeScript
+MD #00108.ColdFusion
+MD #00109.COMAL
+MD #00110.COMIT
+MD #00111.Common Intermediate Language CIL
+MD #00112.Common Lisp also known as CL
+MD #00113.COMPASS
+MD #00114.Component Pascal
+MD #00115.COMTRAN
+MD #00116.Concurrent Pascal
+MD #00117.Constraint Handling Rules CHR
+MD #00118.Control Language
+MD #00119.Coq
+MD #00120.CORAL Coral 66
+MD #00121.CorVision
+MD #00122.COWSEL
+MD #00123.CPL
+MD #00124.Cryptol
+MD #00125.Crystal
+MD #00126.Csound
+MD #00127.Cuneiform
+MD #00128.Curl
+MD #00129.Curry
+MD #00130.Cybil
+MD #00131.Cyclone
+MD #00132.Cypher Query Language
+MD #00133.Cython
+MD #00134.CEEMAC
+MD #00135.D
+MD #00136.D also known as dlang
+MD #00137.Dart
+MD #00138.Darwin
+MD #00139.DataFlex
+MD #00140.Datalog
+MD #00141.DATATRIEVE
+MD #00142.dBase
+MD #00143.dc
+MD #00144.DCL DIGITAL Command Language
+MD #00145.Delphi
+MD #00146.DIBOL
+MD #00147.DinkC
+MD #00148.Dog
+MD #00149.Draco
+MD #00150.DRAKON
+MD #00151.Dylan
+MD #00152.DYNAMO
+MD #00153.DAX Data Analysis Expressions
+MD #00154.E
+MD #00155.E
+MD #00156.Ease
+MD #00157.Easy PL I
+MD #00158.EASYTRIEVE PLUS
+MD #00159.eC
+MD #00160.ECMAScript
+MD #00161.Edinburgh IMP
+MD #00162.EGL
+MD #00163.Eiffel
+MD #00164.ELAN
+MD #00165.Elixir
+MD #00166.Elm
+MD #00167.Emacs Lisp
+MD #00168.Emerald
+MD #00169.Epigram
+MD #00170.EPL Easy Programming Language
+MD #00171.Erlang
+MD #00172.es
+MD #00173.Escher
+MD #00174.ESPOL
+MD #00175.Esterel
+MD #00176.Etoys
+MD #00177.Euclid
+MD #00178.Euler
+MD #00179.Euphoria
+MD #00180.EusLisp Robot Programming Language
+MD #00181.CMS EXEC EXEC
+MD #00182.EXEC 2
+MD #00183.Executable UML
+MD #00184.Ezhil
+MD #00185.F
+MD #00186.F
+MD #00187.F# F sharp
+MD #00188.F*
+MD #00189.Factor
+MD #00190.Fantom
+MD #00191.FAUST
+MD #00192.FFP
+MD #00193.fish
+MD #00194.Fjölnir
+MD #00195.FL
+MD #00196.Flavors
+MD #00197.Flex
+MD #00198.Flix
+MD #00199.FlooP
+MD #00200.FLOW-MATIC B0
+MD #00201.FOCAL Formulating On-Line Calculations in Algebraic Language FOrmula CaLculator
+MD #00202.FOCUS
+MD #00203.FOIL
+MD #00204.FORMAC FORMula MAnipulation Compiler
+MD #00205._Formula
+MD #00206.Forth
+MD #00207.Fortran – ISO IEC 1539
+MD #00208.Fortress
+MD #00209.FP
+MD #00210.FoxBase FoxPro
+MD #00211.Franz Lisp
+MD #00212.Futhark
+MD #00213.F-Script
+MD #00214.G
+MD #00215.Game Maker Language
+MD #00216.GameMonkey Script
+MD #00217.General Algebraic Modeling System GAMS
+MD #00218.GAP
+MD #00219.G-code
+MD #00220.GDScript Godot
+MD #00221.Genie
+MD #00222.Geometric Description Language GDL
+MD #00223.GEORGE
+MD #00224.OpenGL Shading Language GLSL
+MD #00225.GNU E
+MD #00226.GNU Ubiquitous Intelligent Language for Extensions GNU Guile
+MD #00227.Go
+MD #00228.Go!
+MD #00229.Game Oriented Assembly Lisp GOAL
+MD #00230.Gödel
+MD #00231.Golo
+MD #00232.Good Old Mad GOM
+MD #00233.Google Apps Script
+MD #00234.Gosu
+MD #00235.GOTRAN IBM 1620
+MD #00236.General Purpose Simulation System GPSS
+MD #00237.GraphTalk Computer Sciences Corporation
+MD #00238.GRASS
+MD #00239.Grasshopper
+MD #00240.Groovy by Apache
+MD #00241.H
+MD #00242.Hack
+MD #00243.HAGGIS
+MD #00244.HAL S
+MD #00245.Halide programming language
+MD #00246.Hamilton C shell
+MD #00247.Harbour
+MD #00248.Hartmann pipelines
+MD #00249.Haskell
+MD #00250.Haxe
+MD #00251.Hermes
+MD #00252.High Level Assembly HLA
+MD #00253.High Level Shader Language HLSL
+MD #00254.Hollywood
+MD #00255.HolyC TempleOS
+MD #00256.Hop
+MD #00257.Hopscotch
+MD #00258.Hope
+MD #00259.Hume
+MD #00260.HyperTalk
+MD #00261.Hy
+MD #00262.I
+MD #00263.Io
+MD #00264.Icon
+MD #00265.IBM Basic assembly language
+MD #00266.IBM HAScript
+MD #00267.IBM Informix-4GL
+MD #00268.IBM RPG
+MD #00269.IDL
+MD #00270.Idris
+MD #00271.Inform
+MD #00272.ISLISP
+MD #00273.J
+MD #00274.J
+MD #00275.J# J sharp
+MD #00276.J++ J plus plus
+MD #00277.JADE
+MD #00278.Jai
+MD #00279.JAL
+MD #00280.Janus concurrent constraint programming language
+MD #00281.Janus time-reversible computing programming language
+MD #00282.JASS
+MD #00283.Java
+MD #00284.JavaFX Script
+MD #00285.JavaScript
+MD #00286.Jess
+MD #00287.JCL
+MD #00288.JEAN
+MD #00289.Join Java
+MD #00290.JOSS
+MD #00291.Joule
+MD #00292.JOVIAL
+MD #00293.Joy
+MD #00294.jq
+MD #00295.JScript
+MD #00296.JScript .NET
+MD #00297.Julia
+MD #00298.Jython
+MD #00299.K
+MD #00300.K
+MD #00301.Kaleidoscope
+MD #00302.Karel
+MD #00303.KEE
+MD #00304.Kixtart
+MD #00305.Klerer-May System
+MD #00306.KIF Knowledge Interchange Format
+MD #00307.Kojo
+MD #00308.Kotlin
+MD #00309.KRC
+MD #00310.KRL
+MD #00311.KRL KUKA Robot Language
+MD #00312.KRYPTON
+MD #00313.KornShell ksh
+MD #00314.Kodu
+MD #00315.Kv Kivy
+MD #00316.L
+MD #00317.LabVIEW
+MD #00318.Ladder
+MD #00319.LANSA
+MD #00320.Lasso
+MD #00321.Lava
+MD #00322.LC-3
+MD #00323.Lean
+MD #00324.Legoscript
+MD #00325.LIL
+MD #00326.LilyPond
+MD #00327.Limbo
+MD #00328.LINC
+MD #00329.Lingo
+MD #00330.LINQ
+MD #00331.LIS
+MD #00332.LISA
+MD #00333.Language H
+MD #00334.Lisp – ISO IEC 13816
+MD #00335.Lite-C
+MD #00336.Lithe
+MD #00337.Little b
+MD #00338.LLL
+MD #00339.Logo
+MD #00340.Logtalk
+MD #00341.LotusScript
+MD #00342.LPC
+MD #00343.LSE
+MD #00344.LSL
+MD #00345.LiveCode
+MD #00346.LiveScript
+MD #00347.Lua
+MD #00348.Lucid
+MD #00349.Lustre
+MD #00350.LYaPAS
+MD #00351.Lynx
+MD #00352.M
+MD #00353.M Formula language
+MD #00354.M2001
+MD #00355.M4
+MD #00356.M#
+MD #00357.Machine code
+MD #00358.MAD Michigan Algorithm Decoder
+MD #00359.MAD I
+MD #00360.Magik
+MD #00361.Magma
+MD #00362.Máni
+MD #00363.Maple
+MD #00364.MAPPER now part of BIS
+MD #00365.MARK-IV now VISION:BUILDER
+MD #00366.Mary
+MD #00367.MATLAB
+MD #00368.MASM Microsoft Assembly x86
+MD #00369.MATH-MATIC
+MD #00370.Maude system
+MD #00371.Maxima see also Macsyma
+MD #00372.Max Max Msp – Graphical Programming Environment
+MD #00373.MaxScript internal language 3D Studio Max
+MD #00374.Maya MEL
+MD #00375.MDL
+MD #00376.Mercury
+MD #00377.Mesa
+MD #00378.MHEG-5 Interactive TV programming language
+MD #00379.Microcode
+MD #00380.Microsoft Power Fx
+MD #00381.MIIS
+MD #00382.Milk programming language
+MD #00383.MIMIC
+MD #00384.Mirah
+MD #00385.Miranda
+MD #00386.MIVA Script
+MD #00387.ML
+MD #00388.Model 204
+MD #00389.Modelica
+MD #00390.Malbolge
+MD #00391.Modula
+MD #00392.Modula-2
+MD #00393.Modula-3
+MD #00394.Mohol
+MD #00395.MOO
+MD #00396.Mortran
+MD #00397.Mouse
+MD #00398.MPD
+MD #00399.MSL
+MD #00400.MUMPS
+MD #00401.MuPAD
+MD #00402.Mutan
+MD #00403.Mystic Programming Language MPL
+MD #00404.N
+MD #00405.NASM
+MD #00406.Napier88
+MD #00407.Neko
+MD #00408.Nemerle
+MD #00409.NESL
+MD #00410.Net.Data
+MD #00411.NetLogo
+MD #00412.NetRexx
+MD #00413.NewLISP
+MD #00414.NEWP
+MD #00415.Newspeak
+MD #00416.NewtonScript
+MD #00417.Nial
+MD #00418.Nickle NITIN
+MD #00419.Nim
+MD #00420.Nix Systems configuration language
+MD #00421.NPL
+MD #00422.Not eXactly C NXC
+MD #00423.Not Quite C NQC
+MD #00424.NSIS
+MD #00425.Nu
+MD #00426.NWScript
+MD #00427.NXT-G
+MD #00428.O
+MD #00429.o:XML
+MD #00430.Oak
+MD #00431.Oberon
+MD #00432.OBJ2
+MD #00433.Object Lisp
+MD #00434.ObjectLOGO
+MD #00435.Object REXX
+MD #00436.Object Pascal
+MD #00437.Objective-C
+MD #00438.Obliq
+MD #00439.OCaml
+MD #00440.occam
+MD #00441.occam-π
+MD #00442.Octave
+MD #00443.OmniMark
+MD #00444.Opa
+MD #00445.Opal
+MD #00446.Open Programming Language OPL
+MD #00447.OpenCL
+MD #00448.OpenEdge Advanced Business Language ABL
+MD #00449.OpenVera
+MD #00450.OpenQASM
+MD #00451.OPS5
+MD #00452.OptimJ
+MD #00453.Orc
+MD #00454.ORCA Modula-2
+MD #00455.Oriel
+MD #00456.Orwell
+MD #00457.Oxygene
+MD #00458.Oz
+MD #00459.P
+MD #00460.P
+MD #00461.P4
+MD #00462.P′′
+MD #00463.ParaSail
+MD #00464.PARI GP
+MD #00465.Pascal – ISO 7185
+MD #00466.Pascal Script
+MD #00467.PCASTL
+MD #00468.PCF
+MD #00469.PEARL
+MD #00470.PeopleCode
+MD #00471.Perl
+MD #00472.PDL
+MD #00473.Pharo
+MD #00474.PHP
+MD #00475.Pico
+MD #00476.Picolisp
+MD #00477.Pict
+MD #00478.Pike
+MD #00479.PILOT
+MD #00480.Pipelines
+MD #00481.Pizza
+MD #00482.PL-11
+MD #00483.PL 0
+MD #00484.PL B
+MD #00485.PL C
+MD #00486.PL I – ISO 6160
+MD #00487.PL M
+MD #00488.PL P
+MD #00489.PL S
+MD #00490.PL SQL
+MD #00491.PL360
+MD #00492.PLANC
+MD #00493.Plankalkül
+MD #00494.Planner
+MD #00495.PLEX
+MD #00496.PLEXIL
+MD #00497.Plus
+MD #00498.POP-11
+MD #00499.POP-2
+MD #00500.PostScript
+MD #00501.PortablE
+MD #00502.POV-Ray SDL
+MD #00503.Powerhouse
+MD #00504.PowerBuilder – 4GL GUI application generator from Sybase
+MD #00505.PowerShell
+MD #00506.PPL
+MD #00507.Processing
+MD #00508.Processing.js
+MD #00509.Prograph
+MD #00510.Project Verona
+MD #00511.Prolog
+MD #00512.PROMAL
+MD #00513.Promela
+MD #00514.PROSE modeling language
+MD #00515.PROTEL
+MD #00516.ProvideX
+MD #00517.Pro*C
+MD #00518.Pure
+MD #00519.Pure Data
+MD #00520.PureScript
+MD #00521.PWCT
+MD #00522.Python
+MD #00523.Q
+MD #00524.Q programming language from Kx Systems
+MD #00525.Q#
+MD #00526.Qalb
+MD #00527.Quantum Computation Language
+MD #00528.QtScript
+MD #00529.QuakeC
+MD #00530.QPL
+MD #00531..QL
+MD #00532.R
+MD #00533.R
+MD #00534.R++
+MD #00535.Racket
+MD #00536.Raku
+MD #00537.RAPID
+MD #00538.Rapira
+MD #00539.Ratfiv
+MD #00540.Ratfor
+MD #00541.rc
+MD #00542.Reason
+MD #00543.REBOL
+MD #00544.Red
+MD #00545.Redcode
+MD #00546.REFAL
+MD #00547.REXX
+MD #00548.Ring
+MD #00549.ROOP
+MD #00550.RPG
+MD #00551.RPL
+MD #00552.RSL
+MD #00553.RTL 2
+MD #00554.Ruby
+MD #00555.Rust
+MD #00556.S
+MD #00557.S
+MD #00558.S2
+MD #00559.S3
+MD #00560.S-Lang
+MD #00561.S-PLUS
+MD #00562.SA-C
+MD #00563.SabreTalk
+MD #00564.SAIL
+MD #00565.SAKO
+MD #00566.SAS
+MD #00567.SASL
+MD #00568.Sather
+MD #00569.Sawzall
+MD #00570.Scala
+MD #00571.Scheme
+MD #00572.Scilab
+MD #00573.Scratch
+MD #00574.ScratchJr
+MD #00575.Script.NET
+MD #00576.Sed
+MD #00577.Seed7
+MD #00578.Self
+MD #00579.SenseTalk
+MD #00580.SequenceL
+MD #00581.Serpent
+MD #00582.SETL
+MD #00583.Short Code
+MD #00584.SIMPOL
+MD #00585.SIGNAL
+MD #00586.SiMPLE
+MD #00587.SIMSCRIPT
+MD #00588.Simula
+MD #00589.Simulink
+MD #00590.SISAL
+MD #00591.SKILL
+MD #00592.SLIP
+MD #00593.SMALL
+MD #00594.Smalltalk
+MD #00595.SML
+MD #00596.Strongtalk
+MD #00597.Snap!
+MD #00598.SNOBOL SPITBOL
+MD #00599.Snowball
+MD #00600.SOL
+MD #00601.Solidity
+MD #00602.SOPHAEROS
+MD #00603.Source
+MD #00604.SPARK
+MD #00605.Speakeasy
+MD #00606.Speedcode
+MD #00607.SPIN
+MD #00608.SP k
+MD #00609.SPS
+MD #00610.SQL
+MD #00611.SQR
+MD #00612.Squeak
+MD #00613.Squirrel
+MD #00614.SR
+MD #00615.S SL
+MD #00616.Starlogo
+MD #00617.Strand
+MD #00618.Stata
+MD #00619.Stateflow
+MD #00620.Subtext
+MD #00621.SBL
+MD #00622.SuperCollider
+MD #00623.Superplan
+MD #00624.SuperTalk
+MD #00625.Swift Apple programming language
+MD #00626.Swift parallel scripting language
+MD #00627.SYMPL
+MD #00628.T
+MD #00629.T
+MD #00630.TACL
+MD #00631.TACPOL
+MD #00632.TADS Text Adventure Development System
+MD #00633.TAL
+MD #00634.Tcl
+MD #00635.Tea
+MD #00636.TECO Text Editor and Corrector
+MD #00637.TELCOMP
+MD #00638.TeX
+MD #00639.TEX Text Executive Programming Language
+MD #00640.TIE
+MD #00641.TMG TransMoGrifier compiler-compiler
+MD #00642.Tom
+MD #00643.Toi
+MD #00644.Topspeed Clarion
+MD #00645.TPU Text Processing Utility
+MD #00646.Trac
+MD #00647.TTM
+MD #00648.T-SQL Transact-SQL
+MD #00649.Transcript LiveCode
+MD #00650.TTCN Tree and Tabular Combined Notation
+MD #00651.Turing
+MD #00652.TUTOR PLATO Author Language
+MD #00653.TXL
+MD #00654.TypeScript
+MD #00655.Tynker
+MD #00656.U
+MD #00657.Ubercode
+MD #00658.UCSD Pascal
+MD #00659.Umple
+MD #00660.Unicon
+MD #00661.Uniface
+MD #00662.UNITY
+MD #00663.UnrealScript
+MD #00664.V
+MD #00665.Vala
+MD #00666.Vim script
+MD #00667.Viper Ethereum Ether ETH
+MD #00668.Visual DataFlex
+MD #00669.Visual DialogScript
+MD #00670.Visual FoxPro
+MD #00671.Visual J++ Visual J plus plus
+MD #00672.Visual LISP
+MD #00673.Visual Objects
+MD #00674.Visual Prolog
+MD #00675.W
+MD #00676.WATFIV WATFOR WATerloo FORtran IV
+MD #00677.WebAssembly
+MD #00678.WebDNA
+MD #00679.Whiley
+MD #00680.Winbatch
+MD #00681.Wolfram Language
+MD #00682.Wyvern
+MD #00683.X
+MD #00684.X++ X plus plus Microsoft Dynamics AX
+MD #00685.X10
+MD #00686.xBase++ xBase plus plus
+MD #00687.XBL
+MD #00688.XC targets XMOS architecture
+MD #00689.xHarbour
+MD #00690.XL
+MD #00691.Xojo
+MD #00692.XOTcl
+MD #00693.Xod
+MD #00694.XPL
+MD #00695.XPL0
+MD #00696.XQuery
+MD #00697.XSB
+MD #00698.XSharp X#
+MD #00699.XSLT
+MD #00700.Xtend
+MD #00701.Y
+MD #00702.Yorick
+MD #00703.YQL
+MD #00704.Yoix
+MD #00705.Z
+MD #00706.Z shell
+MD #00707.Zebra ZPL ZPL2
+MD #00708.Zeno
+MD #00709.ZetaLisp
+MD #00710.Zig
+MD #00711.Zonnon
+MD #00712.ZOPL
+MD #00713.ZPL
+MD #00714.Z++
