@@ -8,7 +8,7 @@ Estudante de Ciência da Computação<br>
 - e-mail: edureisboa@gmail.com
 
 <h2>Introduction - </h2>
-    Welcome to the Self-Learning Programming Progress Tracker! <br>
+    Welcome to the<br> Self-Learning Programming Progress Tracker! <br>
     This repository serves as a personal log of my journey in learning programming languages ... ALMOST TOTTALY ... independently. <br>
     Through this project, I aim to document my progress, showcase the skills I have acquired, and provide insights into the projects I have completed. 
 
