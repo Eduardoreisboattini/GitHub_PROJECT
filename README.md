@@ -1,10 +1,10 @@
 <h1># GitHub PROJECT <br> Self-Learning Programming Progress Tracker</h1>
 Projetos Visual Studio <br>
-- Eduardo Reis Boattini - <br>
-Estudante de Ciência da Computação - UNIFESP - Turma 2018
-<br> Project Logo <br>
+Eduardo Reis Boattini<br>
+Estudante de Ciência da Computação - UNIFESP - Turma 2018 <br>
+Project Logo <br>
 
-- GitHub/- Linkedin - https://linkedin.com/in/eduardoreisboattini
+- Linkedin: https://linkedin.com/in/eduardoreisboattini
 - e-mail: edureisboa@gmail.com
 
 <h2>Introduction - </h2>
