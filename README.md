@@ -4,8 +4,8 @@ Eduardo Reis Boattini<br>
 Computer Science Student at UNIFESP<br>
 
 - Linkedin: https://linkedin.com/in/eduardoreisboattini
-- e-mail: eduardo.reis@unifesp.br (University)
-- e-mail: edureisboa@gmail.com
+- (University) e-mail: eduardo.reis@unifesp.br 
+- (Personal) e-mail: edureisboa@gmail.com
 
 <h2>Introduction - </h2>
     Welcome to the Self-Learning Programming Progress Tracker! <br>
