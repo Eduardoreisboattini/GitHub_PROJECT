@@ -1,0 +1,16 @@
+{
+      "name":"PHP",
+      "type":"programming",
+      "extensions":[
+         ".php",
+         ".aw",
+         ".ctp",
+         ".fcgi",
+         ".inc",
+         ".php3",
+         ".php4",
+         ".php5",
+         ".phps",
+         ".phpt"
+      ]
+   },
