@@ -15,7 +15,7 @@ Computer Science Student at UNIFESP<br>
 Whether you are a potential employer, fellow developer, or simply curious about my programming journey, this README will give you a comprehensive overview of my achievements and growth.
 
 <h2>Motivation</h2>
-<span style="color: red;">The motivation behind this project is to demonstrate my dedication and passion for programming.</span>
+The motivation behind this project is to demonstrate my dedication and passion for programming.
 
 <br>
 By embarking on this self-learning journey, I have honed my skills in various programming languages and technologies. 
@@ -51,7 +51,7 @@ bash
 While this repository primarily serves as a personal log of my self-learning journey, I am open to collaborations and feedback.<br> If you have suggestions, improvements, or interesting project ideas, feel free to create an issue or submit a pull request. I appreciate any contributions that can help enhance my programming skills further.
 
 <h2>Contact</h2>
-If you have any questions, want to collaborate, or simply discuss programming, please feel free to reach out to me.<br> You can contact me via email at edureisboa@gmail.com or connect with me on LinkedIn.
+If you have any questions, want to collaborate, or simply discuss programming, please feel free to reach out to me.<br> You can contact me via email or connect with me on LinkedIn.
 
 <h2>Conclusion</h2>
 Thank you for taking the time to explore my self-learning programming progress tracker. <br>
