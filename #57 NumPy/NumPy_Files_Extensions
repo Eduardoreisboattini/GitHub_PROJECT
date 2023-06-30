@@ -1,0 +1,9 @@
+  {
+      "name":"NumPy",
+      "type":"programming",
+      "extensions":[
+         ".numpy",
+         ".numpyw",
+         ".numsc"
+      ]
+   },
