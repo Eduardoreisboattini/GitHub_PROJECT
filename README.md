@@ -42,10 +42,10 @@ Getting Started
 If you would like to explore my progress and the projects I have completed, follow these steps:
 
 Clone the repository to your local machine using the following command:<br>
-bash<br>
-Copy code<br>
-git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git<br>
-Navigate to the desired language or project directory to explore the code and documentation.
+bash
+- Copy code<br>
+- git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git<br>
+- Navigate to the desired language or project directory to explore the code and documentation.
 
 
 While this repository primarily serves as a personal log of my self-learning journey, I am open to collaborations and feedback.<br> If you have suggestions, improvements, or interesting project ideas, feel free to create an issue or submit a pull request. I appreciate any contributions that can help enhance my programming skills further.
