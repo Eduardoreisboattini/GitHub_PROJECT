@@ -9,7 +9,7 @@ Project Logo <br>
 
 <h2>Introduction - </h2>
     Welcome to the Self-Learning Programming Progress Tracker! <br>
-    This repository serves as a personal log of my journey in learning programming languages ALMOST TOTTALY ... independently. <br>
+    This repository serves as a personal log of my journey in learning programming languages ... ALMOST TOTTALY ... independently. <br>
     Through this project, I aim to document my progress, showcase the skills I have acquired, and provide insights into the projects I have completed. 
 
 Whether you are a potential employer, fellow developer, or simply curious about my programming journey, this README will give you a comprehensive overview of my achievements and growth.
