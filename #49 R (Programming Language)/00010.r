@@ -1,0 +1,1 @@
+aggregate(data$numeric_column, by = list(data$group_var), FUN = sum)

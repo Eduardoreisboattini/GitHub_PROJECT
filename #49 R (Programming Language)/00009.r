@@ -1,0 +1,1 @@
+clean_data <- na.omit(data)
