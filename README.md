@@ -15,7 +15,9 @@ Project Logo <br>
 Whether you are a potential employer, fellow developer, or simply curious about my programming journey, this README will give you a comprehensive overview of my achievements and growth.
 
 <h2>Motivation</h2>
-<span style="color: red;">The motivation behind this project is to demonstrate my dedication and passion for programming.</span> <br>
+<span style="color: red;">The motivation behind this project is to demonstrate my dedication and passion for programming.</span>
+
+<br>
 By embarking on this self-learning journey, I have honed my skills in various programming languages and technologies. 
 Through continuous learning, practice, and hands-on projects, I have deepened my understanding and expertise in the world of programming.
 
