@@ -1,0 +1,6 @@
+Sub UnprotectAllSheets()
+    Dim ws As Worksheet
+    For Each ws In ThisWorkbook.Sheets
+        ws.Unprotect Password:="password"
+    Next ws
+End Sub

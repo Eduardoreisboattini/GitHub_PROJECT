@@ -1,0 +1,3 @@
+Sub ConvertToUppercase()
+    Selection.Value = UCase(Selection.Value)
+End Sub

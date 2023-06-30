@@ -1,0 +1,5 @@
+Sub CountCellsByValue()
+    Dim count As Long
+    count = Application.WorksheetFunction.CountIf(ActiveSheet.UsedRange, "Value")
+    MsgBox count & " cells contain 'Value'"
+End Sub

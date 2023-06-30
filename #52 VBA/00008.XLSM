@@ -1,0 +1,5 @@
+Sub FindReplace()
+    Cells.Replace What:="find", Replacement:="replace", LookAt:=xlWhole, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+End Sub

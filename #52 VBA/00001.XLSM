@@ -1,0 +1,7 @@
+Sub DeleteOtherSheets()
+    Application.DisplayAlerts = False
+    For Each ws In ThisWorkbook.Sheets
+        If Not ws.Name = ActiveSheet.Name Then ws.Delete
+    Next ws
+    Application.DisplayAlerts = True
+End Sub

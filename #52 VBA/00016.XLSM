@@ -1,0 +1,3 @@
+Sub InsertComment()
+    ActiveCell.AddComment "This is a comment"
+End Sub
