@@ -4,7 +4,7 @@ Eduardo Reis Boattini<br>
 Computer Science Student at UNIFESP<br>
 
 - Linkedin: https://linkedin.com/in/eduardoreisboattini
-- e-mail: eduardo.reis@unifesp.br
+- e-mail: eduardo.reis@unifesp.br (University)
 - e-mail: edureisboa@gmail.com
 
 <h2>Introduction - </h2>
