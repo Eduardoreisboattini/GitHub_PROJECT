@@ -1,8 +1,7 @@
 <h1># GitHub PROJECT <br> Self-Learning Programming Progress Tracker</h1>
 
 Eduardo Reis Boattini<br>
-Estudante de Ciência da Computação<br>
-UNIFESP<br>
+Computer Science Student at UNIFESP<br>
 
 - Linkedin: https://linkedin.com/in/eduardoreisboattini
 - e-mail: edureisboa@gmail.com
