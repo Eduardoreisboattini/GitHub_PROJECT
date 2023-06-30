@@ -1,7 +1,8 @@
 # GitHub_PROJECT
 Projetos Visual Studio
 Self-Learning Programming Progress Tracker
-Project Logo (Optional)
+
+Project Logo - GitHub - Linkedin - https://linkedin.com/in/eduardoreisboattini
 
 Introduction
 Welcome to the Self-Learning Programming Progress Tracker! This repository serves as a personal log of my journey in learning programming languages independently. Through this project, I aim to document my progress, showcase the skills I have acquired, and provide insights into the projects I have completed. Whether you are a potential employer, fellow developer, or simply curious about my programming journey, this README will give you a comprehensive overview of my achievements and growth.
