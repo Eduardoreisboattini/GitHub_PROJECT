@@ -1,22 +1,23 @@
-# GitHub_PROJECT - Self-Learning Programming Progress Tracker
+<h1># GitHub_PROJECT - Self-Learning Programming Progress Tracker</h1>
 Projetos Visual Studio - Eduardo Reis Boattini - Estudante de Ciência da Computação - UNIFESP - Turma 2018
 Project Logo
 
-- GitHub - Linkedin - https://linkedin.com/in/eduardoreisboattini
+- GitHub/- Linkedin - https://linkedin.com/in/eduardoreisboattini
+- e-mail: edureisboa@gmail.com
 
-Introduction - 
+<h2>Introduction - </h2>
     Welcome to the Self-Learning Programming Progress Tracker! 
     This repository serves as a personal log of my journey in learning programming languages ALMOST TOTTALY ... independently. 
     Through this project, I aim to document my progress, showcase the skills I have acquired, and provide insights into the projects I have completed. 
 
 Whether you are a potential employer, fellow developer, or simply curious about my programming journey, this README will give you a comprehensive overview of my achievements and growth.
 
-Motivation
+<h2>Motivation</h2>
 The motivation behind this project is to demonstrate my dedication and passion for programming. 
 By embarking on this self-learning journey, I have honed my skills in various programming languages and technologies. 
 Through continuous learning, practice, and hands-on projects, I have deepened my understanding and expertise in the world of programming.
 
-Project Structure
+<h2>Project Structure</h2>
 The repository is organized into the following directories:
 
 #00 Programming Languages: Contains subdirectories for each programming language I have learned, where you can find code snippets, exercises, and small projects demonstrating my proficiency in that particular language.
@@ -33,6 +34,7 @@ The repository is organized into the following directories:
 #00 Learning Process: I believe in continuous learning and improving my skills. I have consistently sought out resources, online courses, and programming challenges to enhance my knowledge and practical abilities. The Resources directory contains a curated list of the materials that have been valuable to my learning journey.
 Getting Started
 
+<h2>Contributing</h2>
 If you would like to explore my progress and the projects I have completed, follow these steps:
 
 Clone the repository to your local machine using the following command:
@@ -42,13 +44,13 @@ git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git
 
 Navigate to the desired language or project directory to explore the code and documentation.
 
-Contributing
+
 While this repository primarily serves as a personal log of my self-learning journey, I am open to collaborations and feedback. If you have suggestions, improvements, or interesting project ideas, feel free to create an issue or submit a pull request. I appreciate any contributions that can help enhance my programming skills further.
 
-Contact
+<h2>Contact</h2>
 If you have any questions, want to collaborate, or simply discuss programming, please feel free to reach out to me. You can contact me via email at edureisboa@gmail.com or connect with me on LinkedIn.
 
-Conclusion
+<h2>Conclusion</h2>
 Thank you for taking the time to explore my self-learning programming progress tracker. 
 This project reflects my dedication, determination, and love for programming. I am continuously growing and expanding my skill set, and I look forward to further challenges and opportunities that will fuel my learning journey.
 
