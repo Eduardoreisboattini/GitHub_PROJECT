@@ -2,7 +2,6 @@
 Projetos Visual Studio <br>
 Eduardo Reis Boattini<br>
 Estudante de Ciência da Computação - UNIFESP<br>
-Project Logo <br>
 
 - Linkedin: https://linkedin.com/in/eduardoreisboattini
 - e-mail: edureisboa@gmail.com
