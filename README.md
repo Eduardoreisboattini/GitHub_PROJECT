@@ -1,4 +1,4 @@
-<h1># GitHub_PROJECT - Self-Learning Programming Progress Tracker</h1>
+<h1># GitHub PROJECT  Self-Learning Programming Progress Tracker</h1>
 Projetos Visual Studio - Eduardo Reis Boattini - Estudante de Ciência da Computação - UNIFESP - Turma 2018
 Project Logo
 
@@ -20,18 +20,18 @@ Through continuous learning, practice, and hands-on projects, I have deepened my
 <h2>Project Structure</h2>
 The repository is organized into the following directories:
 
-#00 Programming Languages: Contains subdirectories for each programming language I have learned, where you can find code snippets, exercises, and small projects demonstrating my proficiency in that particular language.
+<h3>#00 Programming Languages:</h3> Contains subdirectories for each programming language I have learned, where you can find code snippets, exercises, and small projects demonstrating my proficiency in that particular language.
     Languages: I have acquired proficiency in multiple programming languages, including but not limited to Python, JavaScript, Java, C++, and HTML/CSS. Each language directory within this repository provides examples and projects that demonstrate my knowledge and skills in that particular language.
 
-#00 Projects: Includes subdirectories for different projects I have completed, showcasing my ability to solve problems and create functional applications using various programming languages.
+<h3>#00 Projects:</h3> Includes subdirectories for different projects I have completed, showcasing my ability to solve problems and create functional applications using various programming languages.
     Throughout my journey, I have undertaken several hands-on projects, ranging from small utilities and web applications to more complex algorithms and data structures implementations. The Projects directory includes a detailed description of each project, its purpose, and the technologies employed.
 
-#00 Resources: Contains useful resources, tutorials, and reference materials I have utilized during my learning journey.
+<h3>#00 Resources:</h3> Contains useful resources, tutorials, and reference materials I have utilized during my learning journey.
 
-#00 Progress Highlights
+<h3>#00 Progress Highlights:</h3>
     Here are some of the key highlights of my self-learning programming journey:
 
-#00 Learning Process: I believe in continuous learning and improving my skills. I have consistently sought out resources, online courses, and programming challenges to enhance my knowledge and practical abilities. The Resources directory contains a curated list of the materials that have been valuable to my learning journey.
+<h3>#00 Learning Process:</h3> I believe in continuous learning and improving my skills. I have consistently sought out resources, online courses, and programming challenges to enhance my knowledge and practical abilities. The Resources directory contains a curated list of the materials that have been valuable to my learning journey.
 Getting Started
 
 <h2>Contributing</h2>
