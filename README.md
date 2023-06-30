@@ -39,11 +39,10 @@ Getting Started
 <h2>Contributing</h2>
 If you would like to explore my progress and the projects I have completed, follow these steps:
 
-Clone the repository to your local machine using the following command:
-bash
-Copy code
-git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git
-
+Clone the repository to your local machine using the following command:<br>
+bash<br>
+Copy code<br>
+git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git<br>
 Navigate to the desired language or project directory to explore the code and documentation.
 
 
