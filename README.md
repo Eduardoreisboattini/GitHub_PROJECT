@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Self-Learning Programming Progress Tracker
+  Self-Learning<br> Programming Progress Tracker<br>
 </p>
 
 <p align="center">
