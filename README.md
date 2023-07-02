@@ -78,9 +78,26 @@ This project reflects my dedication, determination, and love for programming. I 
 
 Happy coding!
 
-[![LinkedIn](./ICONS/linkedin.png)](https://www.linkedin.com/in/eduardoreisboattini/)
-[![Facebook](./ICONS/facebook.png)](https://www.facebook.com/eboattini/)
-[![Twitter](./ICONS/twitter.png)](https://twitter.com/ed_re_bo)
-[![Discord](./ICONS/discord.png)](https://discord.gg/Kalish_BR#3305)
-[![Instagram](./ICONS/instagram.png)](https://www.instagram.com/your_profile)
-[![YouTube](./ICONS/youtube.png)](https://www.youtube.com/@KALISHworld/)
+<a href="https://www.linkedin.com/in/eduardoreisboattini/">
+  <img src="./ICONS/linkedin.png" alt="LinkedIn" width="30" height="30">
+</a>
+
+<a href="https://www.facebook.com/eboattini/">
+  <img src="./ICONS/facebook.png" alt="Facebook" width="30" height="30">
+</a>
+
+<a href="https://twitter.com/ed_re_bo">
+  <img src="./ICONS/twitter.png" alt="Twitter" width="30" height="30">
+</a>
+
+<a href="https://discord.gg/Kalish_BR#3305">
+  <img src="./ICONS/discord.png" alt="Discord" width="30" height="30">
+</a>
+
+<a href="https://www.instagram.com/your_profile">
+  <img src="./ICONS/instagram.png" alt="Instagram" width="30" height="30">
+</a>
+
+<a href="https://www.youtube.com/@KALISHworld/">
+  <img src="./ICONS/youtube.png" alt="YouTube" width="30" height="30">
+</a>
