@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/eduardoreisboattini">
     <img src="./ICONS/linkedin.png" alt="LinkedIn" width="30" height="30">
-  </a> |
+  </a>
   <a href="mailto:eduardo.reis@unifesp.br">
     <img src="./ICONS/unifesp.png" alt="University Email" width="30" height="30">
   </a>
