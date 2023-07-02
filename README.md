@@ -1,7 +1,7 @@
 <h1 align="center">GitHub PROJECT</h1>
 
 <p align="center">
-  <img src="./ICONS/Project_Logo.png" alt="Project Logo" width="200" height="200">
+  <img src="./ICONS/Project_Logo.jpg" alt="Project Logo" width="200" height="200">
 </p>
 
 <p align="center">
