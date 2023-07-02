@@ -78,9 +78,9 @@ This project reflects my dedication, determination, and love for programming. I 
 
 Happy coding!
 
-[![LinkedIn](./icons/linkedin.png)](https://www.linkedin.com/in/eduardoreisboattini/)
-[![Facebook](./icons/facebook.png)](https://www.facebook.com/eboattini/)
-[![Twitter](./icons/twitter.png)](https://twitter.com/ed_re_bo)
-[![Discord](./icons/discord.png)](https://discord.gg/Kalish_BR#3305)
-[![Instagram](./icons/instagram.png)](https://www.instagram.com/your_profile)
-[![YouTube](./icons/youtube.png)](https://www.youtube.com/@KALISHworld/)
+[![LinkedIn](./ICONS/linkedin.png)](https://www.linkedin.com/in/eduardoreisboattini/)
+[![Facebook](./ICONS/facebook.png)](https://www.facebook.com/eboattini/)
+[![Twitter](./ICONS/twitter.png)](https://twitter.com/ed_re_bo)
+[![Discord](./ICONS/discord.png)](https://discord.gg/Kalish_BR#3305)
+[![Instagram](./ICONS/instagram.png)](https://www.instagram.com/your_profile)
+[![YouTube](./ICONS/youtube.png)](https://www.youtube.com/@KALISHworld/)
