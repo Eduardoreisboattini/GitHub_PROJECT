@@ -99,11 +99,11 @@ Happy coding!
   <img src="./ICONS/twitter.png" alt="Twitter" width="45" height="45">
 </a>
 
-<a href="https://discord.gg/Kalish_BR#3455">
+<a href="https://discord.gg/EPXHdd6zbQ">
   <img src="./ICONS/discord.png" alt="Discord" width="45" height="45">
 </a>
 
-<a href="https://www.instagram.com/your_profile">
+<a href="https://www.instagram.com/ed_re_bo">
   <img src="./ICONS/instagram.png" alt="Instagram" width="45" height="45">
 </a>
 
