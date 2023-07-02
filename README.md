@@ -15,13 +15,13 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/eduardoreisboattini">
-    <img src="./ICONS/linkedin.png" alt="LinkedIn" width="30" height="30">
+    <img src="./ICONS/linkedin.png" alt="LinkedIn" width="60" height="60">
   </a>
   <a href="mailto:eduardo.reis@unifesp.br">
-    <img src="./ICONS/unifesp.png" alt="University Email" width="30" height="30">
+    <img src="./ICONS/unifesp.png" alt="University Email" width="60" height="60">
   </a>
   <a href="mailto:edu_boa@hotmail.com">
-    <img src="./ICONS/outlook.png" alt="Personal Email" width="30" height="30">
+    <img src="./ICONS/outlook.png" alt="Personal Email" width="60" height="60">
   </a>
 </p>
 
@@ -85,25 +85,25 @@ This project reflects my dedication, determination, and love for programming. I 
 Happy coding!
 
 <a href="https://www.linkedin.com/in/eduardoreisboattini/">
-  <img src="./ICONS/linkedin.png" alt="LinkedIn" width="30" height="30">
+  <img src="./ICONS/linkedin.png" alt="LinkedIn" width="60" height="60">
 </a>
 
 <a href="https://www.facebook.com/eboattini/">
-  <img src="./ICONS/facebook.png" alt="Facebook" width="30" height="30">
+  <img src="./ICONS/facebook.png" alt="Facebook" width="60" height="60">
 </a>
 
 <a href="https://twitter.com/ed_re_bo">
-  <img src="./ICONS/twitter.png" alt="Twitter" width="30" height="30">
+  <img src="./ICONS/twitter.png" alt="Twitter" width="60" height="60">
 </a>
 
-<a href="https://discord.gg/Kalish_BR#3305">
-  <img src="./ICONS/discord.png" alt="Discord" width="30" height="30">
+<a href="https://discord.gg/Kalish_BR#3605">
+  <img src="./ICONS/discord.png" alt="Discord" width="60" height="60">
 </a>
 
 <a href="https://www.instagram.com/your_profile">
-  <img src="./ICONS/instagram.png" alt="Instagram" width="30" height="30">
+  <img src="./ICONS/instagram.png" alt="Instagram" width="60" height="60">
 </a>
 
 <a href="https://www.youtube.com/@KALISHworld/">
-  <img src="./ICONS/youtube.png" alt="YouTube" width="30" height="30">
+  <img src="./ICONS/youtube.png" alt="YouTube" width="60" height="60">
 </a>
