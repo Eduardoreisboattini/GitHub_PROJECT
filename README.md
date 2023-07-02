@@ -84,7 +84,7 @@ If you have any questions, want to collaborate, or simply discuss programming, p
 <h2>Conclusion</h2>
 Thank you for taking the time to explore my self-learning programming progress tracker. <br>
 This project reflects my dedication, determination, and love for programming. I am continuously growing and expanding my skill set, and I look forward to further challenges and opportunities that will fuel my learning journey.
-
+<br> 
 Happy coding!
 
 <a href="https://www.linkedin.com/in/eduardoreisboattini/">
