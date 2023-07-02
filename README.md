@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/eduardoreisboattini">LinkedIn</a> |
   University Email: eduardo.reis@unifesp.br |
-  Personal Email: edureisboa@gmail.com
+  Personal Email: edu_boa@hotmail.com
 </p>
 
 <h2>Introduction</h2>
