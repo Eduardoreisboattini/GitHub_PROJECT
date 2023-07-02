@@ -15,8 +15,12 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/eduardoreisboattini">LinkedIn</a> |
-  University Email: eduardo.reis@unifesp.br |
-  Personal Email: edu_boa@hotmail.com
+  <a href="mailto:eduardo.reis@unifesp.br">
+    <i class="fas fa-envelope"></i>
+  </a> University Email: eduardo.reis@unifesp.br |
+  <a href="mailto:edu_boa@hotmail.com">
+    <i class="fas fa-envelope"></i>
+  </a> Personal Email: edu_boa@hotmail.com
 </p>
 
 <h2>Introduction</h2>
