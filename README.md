@@ -1,52 +1,69 @@
-<h1># GitHub PROJECT <br> Self-Learning Programming Progress Tracker</h1>
+<h1 align="center">GitHub PROJECT</h1>
 
-Eduardo Reis Boattini<br>
-Computer Science Student at UNIFESP<br>
+<p align="center">
+  <img src="https://example.com/path/to/image.png" alt="Project Logo" width="200" height="200">
+</p>
 
-- Linkedin: https://linkedin.com/in/eduardoreisboattini
-- (University) e-mail: eduardo.reis@unifesp.br 
-- (Personal) e-mail: edureisboa@gmail.com
+<p align="center">
+  Self-Learning Programming Progress Tracker
+</p>
 
-<h2>Introduction - </h2>
-    Welcome to the Self-Learning Programming Progress Tracker! <br>
-    This repository serves as a personal log of my journey in learning programming languages ... ALMOST TOTTALY ... independently. <br>
-    Through this project, I aim to document my progress, showcase the skills I have acquired, and provide insights into the projects I have completed. 
+<p align="center">
+  Eduardo Reis Boattini<br>
+  Computer Science Student at UNIFESP
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/eduardoreisboattini">LinkedIn</a> |
+  University Email: eduardo.reis@unifesp.br |
+  Personal Email: edureisboa@gmail.com
+</p>
+
+<h2>Introduction</h2>
+
+Welcome to the Self-Learning Programming Progress Tracker! 🚀 This repository serves as a personal log of my journey in learning programming languages independently. Through this project, I aim to document my progress, showcase the skills I have acquired, and provide insights into the projects I have completed.
 
 Whether you are a potential employer, fellow developer, or simply curious about my programming journey, this repository will give you a comprehensive overview of my achievements and growth.
 
 <h2>Motivation</h2>
-The motivation behind this project is to demonstrate my dedication and passion for programming.
 
-<br>
-By embarking on this self-learning journey, I have honed my skills in various programming languages and technologies. 
-Through continuous learning, practice, and hands-on projects, I have deepened my understanding and expertise in the world of programming.
+The motivation behind this project is to demonstrate my dedication and passion for programming. 💪 By embarking on this self-learning journey, I have honed my skills in various programming languages and technologies. Through continuous learning, practice, and hands-on projects, I have deepened my understanding and expertise in the world of programming.
 
 <h2>Project Structure</h2>
+
 The repository is organized into the following directories:
 
-<h3>#00 Programming Languages:</h3> Contains subdirectories for each programming language I have learned, where you can find code snippets, exercises, and small projects demonstrating my proficiency in that particular language.<br>
-    Languages: I have acquired proficiency in multiple programming languages, including but not limited to Python, JavaScript, Java, C++, and HTML/CSS. Each language directory within this repository provides examples and projects that demonstrate my knowledge and skills in that particular language.
+<h3>📚 #00 Programming Languages</h3>
 
-<h3>#00 Projects:</h3> Includes subdirectories for different projects I have completed, showcasing my ability to solve problems and create functional applications using various programming languages.<br>
-    Throughout my journey, I have undertaken several hands-on projects, ranging from small utilities and web applications to more complex algorithms and data structures implementations. The Projects directory includes a detailed description of each project, its purpose, and the technologies employed.
+Contains subdirectories for each programming language I have learned, where you can find code snippets, exercises, and small projects demonstrating my proficiency in that particular language. Some of the languages I have acquired proficiency in include but are not limited to Python, JavaScript, Java, C++, and HTML/CSS. Each language directory within this repository provides examples and projects that demonstrate my knowledge and skills in that particular language.
 
-<h3>#00 Resources:</h3> Contains useful resources, tutorials, and reference materials I have utilized during my learning journey.
+<h3>💡 #00 Projects</h3>
 
-<h3>#00 Progress Highlights:</h3>
-    Here are some of the key highlights of my self-learning programming journey:
+Includes subdirectories for different projects I have completed, showcasing my ability to solve problems and create functional applications using various programming languages. Throughout my journey, I have undertaken several hands-on projects, ranging from small utilities and web applications to more complex algorithms and data structure implementations. The Projects directory includes a detailed description of each project, its purpose, and the technologies employed.
 
-<h3>#00 Learning Process:</h3> I believe in continuous learning and improving my skills.<br> I have consistently sought out resources, online courses, and programming challenges to enhance my knowledge and practical abilities. The Resources directory contains a curated list of the materials that have been valuable to my learning journey.
-Getting Started
+<h3>📖 #00 Resources</h3>
+
+Contains useful resources, tutorials, and reference materials I have utilized during my learning journey.
+
+<h3>⭐ #00 Progress Highlights</h3>
+
+Here are some of the key highlights of my self-learning programming journey:
+
+<h3>🌱 #00 Learning Process</h3>
+
+I believe in continuous learning and improving my skills. 🎯 I have consistently sought out resources, online courses, and programming challenges to enhance my knowledge and practical abilities. The Resources directory contains a curated list of the materials that have been valuable to my learning journey.
 
 <h2>Contributing</h2>
-If you would like to explore my progress and the projects I have completed, follow these steps:
+## Getting Started
 
-Clone the repository to your local machine using the following command:<br>
-bash
-- Copy code<br>
-- git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git<br>
+To explore my progress and the projects I have completed, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git
+
 - Navigate to the desired language or project directory to explore the code and documentation.
-
 
 While this repository primarily serves as a personal log of my self-learning journey, I am open to collaborations and feedback.<br> If you have suggestions, improvements, or interesting project ideas, feel free to create an issue or submit a pull request. I appreciate any contributions that can help enhance my programming skills further.
 
