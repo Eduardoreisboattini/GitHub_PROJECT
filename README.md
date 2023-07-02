@@ -99,7 +99,7 @@ Happy coding!
   <img src="./ICONS/twitter.png" alt="Twitter" width="45" height="45">
 </a>
 
-<a href="https://discord.gg/EPXHdd6zbQ">
+<a href="https://discord.gg/5n3mmJcvXe">
   <img src="./ICONS/discord.png" alt="Discord" width="45" height="45">
 </a>
 
