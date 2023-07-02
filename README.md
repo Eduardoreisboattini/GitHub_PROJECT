@@ -77,3 +77,10 @@ Thank you for taking the time to explore my self-learning programming progress t
 This project reflects my dedication, determination, and love for programming. I am continuously growing and expanding my skill set, and I look forward to further challenges and opportunities that will fuel my learning journey.
 
 Happy coding!
+
+[![LinkedIn](https://example.com/path/to/linkedin.png)](https://www.linkedin.com/in/eduardoreisboattini/)
+[![Facebook](https://example.com/path/to/facebook.png)](https://https://www.facebook.com/eboattini/)
+[![Twitter](https://example.com/path/to/twitter.png)](https://twitter.com/ed_re_bo)
+[![Discord](https://example.com/path/to/discord.png)](https://discord.gg/Kalish_BR#3305)
+[![Instagram](https://example.com/path/to/instagram.png)](https://www.instagram.com/your_profile)
+[![YouTube](https://example.com/path/to/youtube.png)](https://www.youtube.com/@KALISHworld/)
