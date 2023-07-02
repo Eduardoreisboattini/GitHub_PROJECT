@@ -15,15 +15,16 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/eduardoreisboattini">
-    <img src="./ICONS/linkedin.png" alt="LinkedIn" width="60" height="60">
+    <img src="./ICONS/linkedin.png" alt="LinkedIn" width="60" height="60">&nbsp;&nbsp;
   </a>
   <a href="mailto:eduardo.reis@unifesp.br">
-    <img src="./ICONS/unifesp.png" alt="University Email" width="60" height="60">
+    <img src="./ICONS/unifesp.png" alt="University Email" width="60" height="60">&nbsp;&nbsp;
   </a>
   <a href="mailto:edu_boa@hotmail.com">
-    <img src="./ICONS/outlook.png" alt="Personal Email" width="60" height="60">
+    <img src="./ICONS/outlook.png" alt="Personal Email" width="60" height="60">&nbsp;&nbsp;
   </a>
 </p>
+
 
 <h2>Introduction</h2>
 
