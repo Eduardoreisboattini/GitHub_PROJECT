@@ -74,7 +74,7 @@ To explore my progress and the projects I have completed, follow these steps:
    ```bash
    git clone https://github.com/Eduardoreisboattini/GitHub_PROJECT.git
 
-2. Navigate to the desired language or project directory to explore the code and documentation.
+. Navigate to the desired language or project directory to explore the code and documentation.
 
 While this repository primarily serves as a personal log of my self-learning journey, I am open to collaborations and feedback.<br> If you have suggestions, improvements, or interesting project ideas, feel free to create an issue or submit a pull request. I appreciate any contributions that can help enhance my programming skills further.
 
@@ -99,7 +99,7 @@ Happy coding!
   <img src="./ICONS/twitter.png" alt="Twitter" width="45" height="45">
 </a>
 
-<a href="https://discord.gg/5n3mmJcvXe">
+<a href="https://discord.gg/tgUv67yD">
   <img src="./ICONS/discord.png" alt="Discord" width="45" height="45">
 </a>
 
