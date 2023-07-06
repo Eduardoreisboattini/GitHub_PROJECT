@@ -80,7 +80,7 @@ While this repository primarily serves as a personal log of my self-learning jou
 
 <h2>Contact</h2>
 If you have any questions, want to collaborate, or simply discuss programming, please feel free to reach out to me.<br> You can contact me via email or connect with me on LinkedIn.
-
+<br>
 <br>
 
 <a href="https://www.linkedin.com/in/eduardoreisboattini/">
