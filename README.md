@@ -105,7 +105,19 @@ If you have any questions, want to collaborate, or simply discuss programming, p
 
 <a href="https://www.youtube.com/@KALISHworld/">
   <img src="./ICONS/youtube.png" alt="YouTube" width="45" height="45">
-</a>
+</a><footer>
+    <div class="footer-container">
+        <p>&copy; 2023 Eduardo Reis Boattini - Online Course. All rights reserved.</p>
+        <ul class="footer-menu">
+            <li><a href="./PrivacyPolicy.md">Privacy Policy</a></li>
+            <li><a href="./TermsOfService.md">Terms of Service</a></li>
+            <li><a href="mailto:eduardo.reis@unifesp.br">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="footer-disclaimer">
+        <p>The information provided on this website is for general informational purposes only and does not constitute professional advice. Consult a qualified professional for specific guidance related to your situation.</p>
+    </div>
+</footer>
 
 <h2>Conclusion</h2>
 Thank you for taking the time to explore my self-learning programming progress tracker. <br>
