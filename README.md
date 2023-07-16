@@ -127,9 +127,3 @@ Happy coding!
         <p>The information provided on this website is for general informational purposes only and does not constitute professional advice. Consult a qualified professional for specific guidance related to your situation.</p>
     </div>
 </footer>
-
-<h2>Conclusion</h2>
-Thank you for taking the time to explore my self-learning programming progress tracker. <br>
-This project reflects my dedication, determination, and love for programming. I am continuously growing and expanding my skill set, and I look forward to further challenges and opportunities that will fuel my learning journey.
-<br> <br>
-Happy coding!
