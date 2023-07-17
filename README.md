@@ -104,7 +104,7 @@ If you have any questions, want to collaborate, or simply discuss programming, p
 </a>
 
 <a href="https://www.youtube.com/@KALISHworld/">
-  <img src="./ICONS/youtube.png" alt="YouTube" width="45" height="45">VZ
+  <img src="./ICONS/youtube.png" alt="YouTube" width="45" height="45">
 <br>
 <h2>Conclusion</h2>
 Thank you for taking the time to explore my self-learning programming progress tracker. <br>
