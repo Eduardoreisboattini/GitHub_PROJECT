@@ -1,73 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Design Patterns - Learn Software Design Principles</title>
-</head>
-<body>
-    <h1>Design Patterns: Learn about common design patterns that improve software design</h1>
-    <p>Welcome to the comprehensive guide on Design Patterns! Here, you will learn about various design patterns that help you solve recurring problems in software development.</p>
+# Design Patterns - Learn Software Design Principles
 
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#creational">Creational Patterns</a></li>
-        <li><a href="#structural">Structural Patterns</a></li>
-        <li><a href="#behavioral">Behavioral Patterns</a></li>
-        <li><a href="#other">Other Patterns</a></li>
-    </ul>
+Welcome to the comprehensive guide on Design Patterns! Here, you will learn about various design patterns that help you solve recurring problems in software development.
 
-    <h2 id="creational">1. Creational Patterns</h2>
-    <p>Creational patterns focus on object creation mechanisms, making it easier to instantiate objects in a flexible way.</p>
-    <ul>
-        <li>Factory Method</li>
-        <li>Abstract Factory</li>
-        <li>Singleton</li>
-        <li>Builder</li>
-        <li>Prototype</li>
-    </ul>
+## Table of Contents
+- [Creational Patterns](#creational)
+- [Structural Patterns](#structural)
+- [Behavioral Patterns](#behavioral)
+- [Other Patterns](#other)
 
-    <h2 id="structural">2. Structural Patterns</h2>
-    <p>Structural patterns concentrate on class and object composition to form larger structures.</p>
-    <ul>
-        <li>Adapter</li>
-        <li>Bridge</li>
-        <li>Composite</li>
-        <li>Decorator</li>
-        <li>Facade</li>
-        <li>Flyweight</li>
-        <li>Proxy</li>
-    </ul>
+## 1. Creational Patterns
+Creational patterns focus on object creation mechanisms, making it easier to instantiate objects in a flexible way.
 
-    <h2 id="behavioral">3. Behavioral Patterns</h2>
-    <p>Behavioral patterns focus on communication between objects and how they interact.</p>
-    <ul>
-        <li>Observer</li>
-        <li>Strategy</li>
-        <li>Chain of Responsibility</li>
-        <li>Command</li>
-        <li>State</li>
-        <li>Interpreter</li>
-        <li>Visitor</li>
-        <li>Iterator</li>
-        <li>Mediator</li>
-        <li>Memento</li>
-    </ul>
+- Factory Method
+- Abstract Factory
+- Singleton
+- Builder
+- Prototype
 
-    <h2 id="other">4. Other Patterns</h2>
-    <p>Additional design patterns that are worth exploring.</p>
-    <ul>
-        <li>Null Object</li>
-        <li>Double-Checked Locking</li>
-        <li>Service Locator</li>
-        <li>Model-View-Controller (MVC)</li>
-        <li>Model-View-Presenter (MVP)</li>
-        <li>Model-View-ViewModel (MVVM)</li>
-        <li>Event Sourcing</li>
-        <li>CQRS (Command Query Responsibility Segregation)</li>
-    </ul>
+## 2. Structural Patterns
+Structural patterns concentrate on class and object composition to form larger structures.
 
-    <h2>Conclusion</h2>
-    <p>Congratulations! You've covered various design patterns that are crucial for software development. Understanding and applying these patterns will help you create more maintainable, reusable, and organized code.</p>
-</body>
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+## 3. Behavioral Patterns
+Behavioral patterns focus on communication between objects and how they interact.
+
+- Observer
+- Strategy
+- Chain of Responsibility
+- Command
+- State
+- Interpreter
+- Visitor
+- Iterator
+- Mediator
+- Memento
+
+## 4. Other Patterns
+Additional design patterns that are worth exploring.
+
+- Null Object
+- Double-Checked Locking
+- Service Locator
+- Model-View-Controller (MVC)
+- Model-View-Presenter (MVP)
+- Model-View-ViewModel (MVVM)
+- Event Sourcing
+- CQRS (Command Query Responsibility Segregation)
+
+## Conclusion
+Congratulations! You've covered various design patterns that are crucial for software development. Understanding and applying these patterns will help you create more maintainable, reusable, and organized code.
+
+
 <footer>
     <div class="footer-container">
         <p>&copy; 2023 Eduardo Reis Boattini - Online Course. All rights reserved.</p>
