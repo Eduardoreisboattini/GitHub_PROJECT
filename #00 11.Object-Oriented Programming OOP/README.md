@@ -146,7 +146,7 @@ OOP is a paradigm where you design programs as collections of objects, each with
 - Choosing the right paradigm for different projects
 <footer>
     <div class="footer-container">
-        <p>&copy; 2023 Eduardo Reis Boattini - Online Course. All rights reserved.</p>
+        <p>&copy; 2023 Eduardo Reis Boattini Introduction to Object-Oriented Programming (OOP)- Online Course. All rights reserved.</p>
         <ul class="footer-menu">
             <li><a href="./PrivacyPolicy.md">Privacy Policy</a></li>
             <li><a href="./TermsOfService.md">Terms of Service</a></li>
