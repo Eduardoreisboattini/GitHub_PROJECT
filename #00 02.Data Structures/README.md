@@ -155,7 +155,7 @@ Welcome to our comprehensive guide on data structures in programming. Data struc
 <footer>
     <!-- Footer section with additional links and information -->
     <div class="footer-container">
-        <p>&copy;  2023 - Eduardo Reis Boattini - Power BI Course. All rights reserved.</p>
+        <p>&copy;  2023 - Eduardo Reis Boattini - Data Structures Course. All rights reserved.</p>
         <ul class="footer-menu">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
