@@ -1,4 +1,4 @@
-# Understanding Memory Management in Programming
+o# Understanding Memory Management in Programming
 
 Welcome to the comprehensive guide on memory management in programming. In this tutorial, we will cover the fundamentals of how memory works in your chosen programming language and how to manage resources effectively to avoid memory leaks or performance issues.
 
@@ -201,7 +201,7 @@ Happy coding!
 <footer>
     <!-- Footer section with additional links and information -->
     <div class="footer-container">
-        <p>&copy;  2023 - Eduardo Reis Boattini - Power BI Course. All rights reserved.</p>
+        <p>&copy;  2023 - Eduardo Reis Boattini - Understanding Memory Management Course. All rights reserved.</p>
         <ul class="footer-menu">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
