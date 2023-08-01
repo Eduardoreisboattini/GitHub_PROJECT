@@ -119,3 +119,16 @@
 - Collaborating with multiple developers on the same project
 - Using rebase to keep commit history clean
 - Handling conflicts in a collaborative environment
+
+<footer>
+    <!-- Footer section with additional links and information -->
+    <div class="footer-container">
+        <p>&copy;  2023 - Eduardo Reis Boattini - Version Control Course. All rights reserved.</p>
+        <ul class="footer-menu">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div
+    <!-- Additional information or links here -->
+</footer>
