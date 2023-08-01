@@ -156,7 +156,7 @@
 <footer>
     <!-- Footer section with additional links and information -->
     <div class="footer-container">
-        <p>&copy;  2023 - Eduardo Reis Boattini - Power BI Course. All rights reserved.</p>
+        <p>&copy;  2023 - Eduardo Reis Boattini - Basic Programming Concepts: Learn Programming Course. All rights reserved.</p>
         <ul class="footer-menu">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
