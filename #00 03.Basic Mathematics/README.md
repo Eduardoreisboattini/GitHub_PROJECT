@@ -1,4 +1,4 @@
-# Basic Mathematics for Programming
+8# Basic Mathematics for Programming
 
 ## 1. Arithmetic Operations
 Arithmetic operations are fundamental in programming. They include:
@@ -185,7 +185,7 @@ Importance of code documentation and version control:
 <footer>
     <!-- Footer section with additional links and information -->
     <div class="footer-container">
-        <p>&copy;  2023 - Eduardo Reis Boattini - Power BI Course. All rights reserved.</p>
+        <p>&copy;  2023 - Eduardo Reis Boattini - Basic Mathematics Course. All rights reserved.</p>
         <ul class="footer-menu">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
