@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 11: CSS Layout and Positioning</title>
+    <style>
+        /* Display Property */
+        .block {
+            display: block;
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin: 5px;
+        }
+        .inline {
+            display: inline;
+            background-color: #f9f9f9;
+            padding: 5px;
+            margin: 5px;
+        }
+        .inline-block {
+            display: inline-block;
+            background-color: #e6e6e6;
+            padding: 8px;
+            margin: 5px;
+        }
+        
+        /* Position Property */
+        .relative {
+            position: relative;
+            left: 20px;
+            top: 20px;
+        }
+        .absolute {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .fixed {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+        }
+        
+        /* Floats and Clearing */
+        .float-left {
+            float: left;
+            width: 100px;
+            background-color: #ffc0cb;
+            margin: 5px;
+        }
+        .float-right {
+            float: right;
+            width: 100px;
+            background-color: #87ceeb;
+            margin: 5px;
+        }
+        .clear {
+            clear: both;
+        }
+        
+        /* Layout */
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #f4f4f4;
+        }
+        .header, .footer {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+        .sidebar {
+            float: left;
+            width: 200px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .main {
+            margin-left: 220px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Class 11: CSS Layout and Positioning</h2>
+        <ol>
+            <li>Display Property (Block, Inline, Inline-block)</li>
+            <div class="block">Block element</div>
+            <span class="inline">Inline element</span>
+            <div class="inline-block">Inline-block element</div>
+            
+            <li>Position Property (Static, Relative, Absolute, Fixed)</li>
+            <div class="relative">Relative positioned</div>
+            <div class="absolute">Absolute positioned</div>
+            <div class="fixed">Fixed positioned</div>
+            
+            <li>Floating Elements</li>
+            <div class="float-left">Float left</div>
+            <div class="float-right">Float right</div>
+            <div class="clear"></div>
+            
+            <li>Clearing Floats</li>
+            <p>Use the `.clear` class to clear floated elements.</p>
+            
+            <li>Creating Simple Layouts</li>
+            <div class="container">
+                <div class="header">Header</div>
+                <div class="sidebar">Sidebar</div>
+                <div class="main">Main Content</div>
+                <div class="clear"></div>
+                <div class="footer">Footer</div>
+            </div>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+

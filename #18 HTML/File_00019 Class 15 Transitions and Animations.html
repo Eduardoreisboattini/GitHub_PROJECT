@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 15: CSS Transitions and Animations</title>
+    <style>
+        /* Transition Properties */
+        .transition-box {
+            width: 100px;
+            height: 100px;
+            background-color: #f2f2f2;
+            transition: background-color 0.3s ease;
+        }
+        .transition-box:hover {
+            background-color: #007bff;
+        }
+        
+        /* Keyframe Animations */
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #e6e6e6;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        /* Creating Animated Menus */
+        .menu {
+            list-style: none;
+            padding: 0;
+        }
+        .menu-item {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.3s ease;
+        }
+        .menu-item:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+        
+        /* Combining Transitions and Animations */
+        .combined {
+            width: 100px;
+            height: 100px;
+            background-color: #f2f2f2;
+            transition: width 0.3s ease, background-color 0.3s ease;
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Class 15: CSS Transitions and Animations</h2>
+        <ol>
+            <li>Transition Properties (Property, Duration, Timing)</li>
+            <div class="transition-box"></div>
+            
+            <li>Creating Hover Transitions</li>
+            <div class="animated-box"></div>
+            
+            <li>Keyframe Animations</li>
+            <ul class="menu">
+                <li class="menu-item">Home</li>
+                <li class="menu-item">About</li>
+                <li class="menu-item">Services</li>
+                <li class="menu-item">Contact</li>
+            </ul>
+            
+            <li>Creating Animated Menus</li>
+            <div class="combined"></div>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+

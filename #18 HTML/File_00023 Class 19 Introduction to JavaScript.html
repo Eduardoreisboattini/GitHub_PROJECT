@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 19: Introduction to JavaScript</title>
+    <style>
+        /* Styling for JavaScript Introduction */
+        .output {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        // Embedding JavaScript in HTML
+        function showMessage() {
+            alert("Hello, JavaScript!");
+        }
+        
+        // Variables and Data Types
+        var name = "John";
+        var age = 30;
+        var isStudent = true;
+        
+        // Conditional Statements
+        function checkAge() {
+            var inputAge = prompt("Enter your age:");
+            if (inputAge >= 18) {
+                alert("You are an adult.");
+            } else {
+                alert("You are a minor.");
+            }
+        }
+        
+        // Basic Functions and Event Handling
+        function changeText() {
+            document.getElementById("output").textContent = "Text changed!";
+        }
+    </script>
+</head>
+<body>
+    <section>
+        <h2>Class 19: Introduction to JavaScript</h2>
+        <ol>
+            <li>What is JavaScript?</li>
+            <p>JavaScript is a versatile scripting language used for adding interactivity to web pages.</p>
+            
+            <li>Embedding JavaScript in HTML</li>
+            <button onclick="showMessage()">Click me</button>
+            
+            <li>Variables and Data Types</li>
+            <script>
+                document.write("Name: " + name + "<br>");
+                document.write("Age: " + age + "<br>");
+                document.write("Student: " + isStudent + "<br>");
+            </script>
+            
+            <li>Conditional Statements (if, else)</li>
+            <button onclick="checkAge()">Check Age</button>
+            
+            <li>Basic Functions and Event Handling</li>
+            <button onclick="changeText()">Change Text</button>
+            <div class="output" id="output">Initial text</div>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+

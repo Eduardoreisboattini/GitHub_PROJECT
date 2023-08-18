@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 5: Basic HTML Forms</title>
+</head>
+<body>
+    <section>
+        <h2>Class 5: Basic HTML Forms</h2>
+        <ol>
+            <li>Introduction to HTML Forms</li>
+            <p>HTML forms are used to collect user input. They are created using the `<form>` element.</p>
+            <code>
+                &lt;form action="/submit" method="post"&gt;
+                    <!-- Form fields go here -->
+                &lt;/form&gt;
+            </code>
+            
+            <li>Text Input Fields</li>
+            <p>Text input fields allow users to enter single-line or multi-line text.</p>
+            <code>
+                &lt;input type="text" name="username"&gt; <!-- Single-line input -->
+                &lt;textarea name="message"&gt;&lt;/textarea&gt; <!-- Multi-line input -->
+            </code>
+            
+            <li>Radio Buttons and Checkboxes</li>
+            <p>Radio buttons and checkboxes are used for selecting options from a list.</p>
+            <code>
+                &lt;input type="radio" name="gender" value="male"&gt; Male
+                &lt;input type="radio" name="gender" value="female"&gt; Female
+                &lt;input type="checkbox" name="subscribe" value="yes"&gt; Subscribe
+            </code>
+            
+            <li>Dropdown Menus (Select Element)</li>
+            <p>Dropdown menus are created using the `<select>` element with `<option>` elements.</p>
+            <code>
+                &lt;select name="country"&gt;
+                    &lt;option value="usa"&gt;United States&lt;/option&gt;
+                    &lt;option value="canada"&gt;Canada&lt;/option&gt;
+                &lt;/select&gt;
+            </code>
+            
+            <li>Submit Buttons and Form Attributes</li>
+            <p>Submit buttons trigger form submission. Various attributes can be used to customize form behavior.</p>
+            <code>
+                &lt;input type="submit" value="Submit"&gt;
+                &lt;input type="reset" value="Reset"&gt;
+                &lt;form action="/submit" method="post" enctype="multipart/form-data"&gt;
+                    <!-- Form fields go here -->
+                &lt;/form&gt;
+            </code>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>

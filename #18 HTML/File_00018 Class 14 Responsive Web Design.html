@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 14: Responsive Web Design</title>
+    <style>
+        /* Responsive Design */
+        .responsive-container {
+            max-width: 100%;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        .responsive-item {
+            width: 100%;
+            padding: 10px;
+            background-color: #f2f2f2;
+            margin: 5px 0;
+        }
+        
+        /* Media Queries */
+        @media (min-width: 768px) {
+            .responsive-container {
+                max-width: 750px;
+            }
+        }
+        @media (min-width: 992px) {
+            .responsive-container {
+                max-width: 970px;
+            }
+        }
+        
+        /* Mobile-First Approach */
+        .mobile-first-container {
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .mobile-first-item {
+            margin: 5px 0;
+        }
+        @media (min-width: 768px) {
+            .mobile-first-container {
+                padding: 20px;
+            }
+        }
+        
+        /* Creating Responsive Layouts */
+        .responsive-layout {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .responsive-column {
+            flex: 1;
+            padding: 10px;
+            background-color: #e6e6e6;
+            margin: 5px 0;
+        }
+        
+        /* Testing and Debugging Responsiveness */
+        .debug-message {
+            display: none;
+        }
+        @media (max-width: 600px) {
+            .debug-message {
+                display: block;
+                color: red;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Class 14: Responsive Web Design</h2>
+        <ol>
+            <li>What is Responsive Design?</li>
+            <p>Responsive design ensures that a website works well on various devices and screen sizes.</p>
+            
+            <li>Viewports and Media Queries</li>
+            <p>Viewports control how a webpage is displayed on different devices. Media queries apply styles based on screen size.</p>
+            
+            <li>Mobile-First Approach</li>
+            <div class="mobile-first-container">
+                <div class="mobile-first-item">Item 1</div>
+                <div class="mobile-first-item">Item 2</div>
+                <div class="mobile-first-item">Item 3</div>
+            </div>
+            
+            <li>Creating Responsive Layouts</li>
+            <div class="responsive-layout">
+                <div class="responsive-column">Column 1</div>
+                <div class="responsive-column">Column 2</div>
+                <div class="responsive-column">Column 3</div>
+            </div>
+            
+            <li>Testing and Debugging Responsiveness</li>
+            <p class="debug-message">This is a mobile view. Resize the window to test responsiveness.</p>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+ 

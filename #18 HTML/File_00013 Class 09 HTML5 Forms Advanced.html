@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9: HTML Forms Advanced</title>
+</head>
+<body>
+    <section>
+        <h2>Class 9: HTML Forms Advanced</h2>
+        <ol>
+            <li>Textarea for Multi-line Input</li>
+            <p>Use the `<textarea>` element for multi-line text input.</p>
+            <code>
+                &lt;textarea name="description" rows="4" cols="50"&gt;
+                    Enter your description here.
+                &lt;/textarea&gt;
+            </code>
+            
+            <li>Radio Button Groups</li>
+            <p>Group related radio buttons using the same `name` attribute.</p>
+            <code>
+                &lt;input type="radio" name="gender" value="male"&gt; Male
+                &lt;input type="radio" name="gender" value="female"&gt; Female
+            </code>
+            
+            <li>Checkboxes and Labeling</li>
+            <p>Checkboxes can be used to select multiple options. Use `<label>` for better accessibility.</p>
+            <code>
+                &lt;label&gt;
+                    &lt;input type="checkbox" name="interest" value="programming"&gt; Programming
+                &lt;/label&gt;
+                
+                &lt;label&gt;
+                    &lt;input type="checkbox" name="interest" value="design"&gt; Design
+                &lt;/label&gt;
+            </code>
+            
+            <li>Form Validation with Required Attribute</li>
+            <p>Use the `required` attribute to enforce required form fields.</p>
+            <code>
+                &lt;input type="text" name="name" required&gt;
+            </code>
+            
+            <li>Styling Forms with CSS</li>
+            <p>Apply CSS to style form elements for a better user experience.</p>
+            <code>
+                &lt;style&gt;
+                    input[type="text"], textarea {
+                        width: 100%;
+                        padding: 8px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+                    input[type="checkbox"], input[type="radio"] {
+                        margin-right: 5px;
+                    }
+                &lt;/style&gt;
+            </code>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+

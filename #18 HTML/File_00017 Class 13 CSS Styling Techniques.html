@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 13: CSS Styling Techniques</title>
+    <style>
+        /* Styling Links and Navigation */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        nav {
+            background-color: #f9f9f9;
+            padding: 10px;
+        }
+        
+        /* Styling Lists and Tables */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        /* Pseudo-classes */
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        button:focus {
+            outline: 2px solid #007bff;
+        }
+        
+        /* CSS Variables */
+        :root {
+            --primary-color: #007bff;
+        }
+        .custom-button {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* Creating Hover Effects */
+        .hover-effect {
+            transition: transform 0.3s;
+        }
+        .hover-effect:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Class 13: CSS Styling Techniques</h2>
+        <ol>
+            <li>Styling Links and Navigation</li>
+            <nav>
+                <a href="#">Home</a> |
+                <a href="#">About</a> |
+                <a href="#">Contact</a>
+            </nav>
+            
+            <li>Styling Lists and Tables</li>
+            <ul>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ul>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                </tr>
+            </table>
+            
+            <li>Pseudo-classes (:hover, :active, :focus)</li>
+            <a href="#" class="hover-effect">Hover over me</a>
+            <button class="hover-effect">Click me</button>
+            
+            <li>Using CSS Variables (Custom Properties)</li>
+            <button class="custom-button">Custom Button</button>
+            
+            <li>Creating Hover Effects</li>
+            <div class="hover-effect" style="width: 100px; height: 100px; background-color: #f2f2f2;"></div>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+ 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 7: HTML Tables</title>
+</head>
+<body>
+    <section>
+        <h2>Class 7: HTML Tables</h2>
+        <ol>
+            <li>Creating a Basic Table</li>
+            <p>Tables are created using the `<table>` element, and rows are defined using `<tr>` elements.</p>
+            <code>
+                &lt;table&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+                        &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Row 2, Cell 1&lt;/td&gt;
+                        &lt;td&gt;Row 2, Cell 2&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            </code>
+            
+            <li>Table Headers and Data Cells</li>
+            <p>Table headers are defined using `<th>` elements, and data cells are defined using `<td>` elements.</p>
+            <code>
+                &lt;table&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;Header 1&lt;/th&gt;
+                        &lt;th&gt;Header 2&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+                        &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            </code>
+            
+            <li>Spanning Rows and Columns</li>
+            <p>Row and column spanning can be achieved using the `rowspan` and `colspan` attributes.</p>
+            <code>
+                &lt;td rowspan="2"&gt;Spanned Cell&lt;/td&gt;
+                &lt;td colspan="2"&gt;Spanned Cells&lt;/td&gt;
+            </code>
+            
+            <li>Styling Tables with CSS</li>
+            <p>Tables can be styled using CSS to improve their appearance.</p>
+            <code>
+                &lt;style&gt;
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                &lt;/style&gt;
+            </code>
+            
+            <li>Creating a Responsive Table</li>
+            <p>For responsive tables, you can wrap the table in a `<div>` element and apply CSS for horizontal scrolling.</p>
+            <code>
+                &lt;div style="overflow-x: auto;"&gt;
+                    &lt;table&gt;
+                        <!-- Table content goes here -->
+                    &lt;/table&gt;
+                &lt;/div&gt;
+            </code>
+        </ol>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+</footer>
+</html>
+

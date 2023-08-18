@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 20: Putting It All Together</title>
+    <style>
+        /* Styling for Putting It All Together */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #f9f9f9;
+            padding: 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+    <script>
+        // Adding Interactivity with JavaScript
+        function toggleMenu() {
+            var nav = document.getElementById("main-nav");
+            nav.classList.toggle("active");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Putting It All Together</h1>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button onclick="toggleMenu()">Toggle Menu</button>
+        </div>
+    </nav>
+    <section class="container">
+        <h2>Class 20: Putting It All Together</h2>
+        <ol>
+            <li>Reviewing Course Concepts</li>
+            <p>Recap and review of the concepts covered throughout the course.</p>
+            
+            <li>Building a Complete Web Page</li>
+            <p>Creating a complete webpage using HTML, CSS, and JavaScript.</p>
+            
+            <li>Applying CSS Styling and Layout</li>
+            <p>Adding styles and layout to the webpage to enhance its appearance.</p>
+            
+            <li>Adding Interactivity with JavaScript</li>
+            <p>Integrating JavaScript to add interactivity and functionality to the webpage.</p>
+            
+            <li>Final Project Showcase and Next Steps</li>
+            <p>Showcasing the final project and discussing next steps in your web development journey.</p>
+        </ol>
+    </section>
+</body>
+    <footer>
+        <p>&copy; 2023 HTML5 Course - Eduardo Reis Boattini. All rights reserved.</p>
+    </footer>
+</html>
+
