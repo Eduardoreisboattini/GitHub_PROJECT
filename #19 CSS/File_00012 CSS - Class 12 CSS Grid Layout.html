@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12: CSS Grid Layout (Continued)</title>
+    <style>
+        /* Grid Container and Items */
+        .grid-container-2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .grid-item-2 {
+            padding: 10px;
+            background-color: lightblue;
+        }
+
+        /* Grid Template Areas */
+        .grid-areas-2 {
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "sidebar main main"
+                "footer footer footer";
+        }
+        .grid-areas-2 div {
+            padding: 10px;
+            background-color: lightgreen;
+        }
+        .header-2 {
+            grid-area: header;
+        }
+        .sidebar-2 {
+            grid-area: sidebar;
+        }
+        .main-2 {
+            grid-area: main;
+        }
+        .footer-2 {
+            grid-area: footer;
+        }
+
+        /* Grid Template Rows and Columns */
+        .grid-rows-columns-2 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: auto 200px auto;
+            grid-gap: 10px;
+        }
+        .grid-rows-columns-2 div {
+            padding: 10px;
+            background-color: lightcoral;
+        }
+
+        /* Grid Gap and Line Naming */
+        .grid-gap-naming-2 {
+            display: grid;
+            grid-template-columns: [col1] 1fr [col2] 2fr [col3] 1fr;
+            grid-template-rows: [row1] auto [row2] 200px [row3] auto;
+            grid-gap: 10px;
+        }
+        .grid-gap-naming-2 div {
+            padding: 10px;
+            background-color: lightpink;
+        }
+
+        /* Responsive Grids */
+        .responsive-grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-gap: 10px;
+        }
+        .responsive-grid-2 div {
+            padding: 10px;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container-2">
+        <div class="grid-item-2">Grid Item 1</div>
+        <div class="grid-item-2">Grid Item 2</div>
+        <div class="grid-item-2">Grid Item 3</div>
+        <div class="grid-item-2">Grid Item 4</div>
+    </div>
+
+    <div class="grid-areas-2">
+        <div class="header-2">Header</div>
+        <div class="sidebar-2">Sidebar</div>
+        <div class="main-2">Main Content</div>
+        <div class="footer-2">Footer</div>
+    </div>
+
+    <div class="grid-rows-columns-2">
+        <div>Auto Row</div>
+        <div>Fixed Row</div>
+        <div>Auto Row</div>
+        <div>Auto Column</div>
+        <div>Fixed Column</div>
+        <div>Auto Column</div>
+    </div>
+
+    <div class="grid-gap-naming-2">
+        <div>Row 1, Column 1</div>
+        <div>Row 1, Column 2</div>
+        <div>Row 1, Column 3</div>
+        <div>Row 2, Column 1</div>
+        <div>Row 2, Column 2</div>
+        <div>Row 2, Column 3</div>
+    </div>
+
+    <div class="responsive-grid-2">
+        <div>Responsive Grid 1</div>
+        <div>Responsive Grid 2</div>
+        <div>Responsive Grid 3</div>
+    </div>
+</body>
+</html>

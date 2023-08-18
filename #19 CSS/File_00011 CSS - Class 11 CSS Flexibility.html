@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 11: CSS Flexibility (Continued)</title>
+    <style>
+        /* Flex Container and Items */
+        .flex-container-2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .flex-item-2 {
+            flex: 1;
+            min-width: 150px;
+            margin: 10px;
+            padding: 20px;
+            background-color: lightblue;
+        }
+
+        /* Flex Direction and Wrap */
+        .flex-direction-wrap-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .flex-direction-wrap-2 div {
+            margin: 5px;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+
+        /* Flex Grow, Shrink, and Basis */
+        .flex-grow-shrink-basis-2 {
+            display: flex;
+            justify-content: space-between;
+        }
+        .flex-item-gsb-2 {
+            flex: 1 0 100px;
+            margin: 5px;
+            padding: 10px;
+            background-color: lightcoral;
+        }
+
+        /* Aligning and Justifying Content */
+        .align-justify-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px;
+            justify-content: space-evenly;
+        }
+        .align-justify-2 div {
+            width: 80px;
+            height: 80px;
+            background-color: lightsalmon;
+        }
+
+        /* Nested Flex Layouts */
+        .nested-flex-2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .nested-flex-2 div {
+            padding: 10px;
+            background-color: lightpink;
+        }
+        .nested-flex-2 .nested-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .nested-flex-2 .nested-2 div {
+            margin: 5px;
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container-2">
+        <div class="flex-item-2">Flex Item 1</div>
+        <div class="flex-item-2">Flex Item 2</div>
+        <div class="flex-item-2">Flex Item 3</div>
+        <div class="flex-item-2">Flex Item 4</div>
+    </div>
+
+    <div class="flex-direction-wrap-2">
+        <div>Flex 1</div>
+        <div>Flex 2</div>
+        <div>Flex 3</div>
+        <div>Flex 4</div>
+    </div>
+
+    <div class="flex-grow-shrink-basis-2">
+        <div class="flex-item-gsb-2">Grow 1</div>
+        <div class="flex-item-gsb-2">Shrink 0</div>
+        <div class="flex-item-gsb-2">Basis 100px</div>
+    </div>
+
+    <div class="align-justify-2">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div>
+
+    <div class="nested-flex-2">
+        <div>Nested Flex 1</div>
+        <div class="nested-2">
+            <div>Nested Item 1</div>
+            <div>Nested Item 2</div>
+            <div>Nested Item 3</div>
+        </div>
+    </div>
+</body>
+</html>
+

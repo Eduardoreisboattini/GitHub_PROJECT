@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 15: Advanced CSS Techniques</title>
+    <style>
+        /* Pseudo-classes and Pseudo-elements */
+        .pseudo-class-element {
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            background-color: lightblue;
+        }
+        .pseudo-class-element:hover {
+            background-color: lightcoral;
+        }
+        .pseudo-element {
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+        .pseudo-element::before {
+            content: "Before";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background-color: lightblue;
+            padding: 5px;
+            color: white;
+        }
+
+        /* CSS Variables (Custom Properties) */
+        :root {
+            --main-color: lightcoral;
+            --text-color: white;
+        }
+        .css-variables {
+            padding: 20px;
+            background-color: var(--main-color);
+            color: var(--text-color);
+        }
+
+        /* CSS Blend Modes */
+        .blend-modes {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 150px;
+        }
+        .blend-mode-item {
+            width: 100px;
+            height: 100px;
+            background: url('image.jpg');
+        }
+        .blend-mode-item:nth-child(1) {
+            background-blend-mode: multiply;
+        }
+        .blend-mode-item:nth-child(2) {
+            background-blend-mode: screen;
+        }
+        .blend-mode-item:nth-child(3) {
+            background-blend-mode: overlay;
+        }
+
+        /* CSS Filters */
+        .css-filters {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .filter-item {
+            width: 150px;
+            height: 150px;
+            background: url('image.jpg');
+            background-size: cover;
+            filter: grayscale(50%);
+        }
+
+        /* CSS Shapes and Exclusions */
+        .shapes-exclusions {
+            width: 300px;
+            height: 200px;
+            background-color: lightblue;
+            shape-outside: circle(50%);
+            float: left;
+            margin: 10px;
+        }
+        .text-shape {
+            width: 300px;
+            float: right;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pseudo-class-element">Hover Me</div>
+
+    <div class="pseudo-element">Element</div>
+
+    <div class="css-variables">CSS Variables</div>
+
+    <div class="blend-modes">
+        <div class="blend-mode-item"></div>
+        <div class="blend-mode-item"></div>
+        <div class="blend-mode-item"></div>
+    </div>
+
+    <div class="css-filters">
+        <div class="filter-item"></div>
+        <div class="filter-item"></div>
+        <div class="filter-item"></div>
+    </div>
+
+    <div class="shapes-exclusions"></div>
+    <div class="text-shape">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Curabitur non varius libero, vel vestibulum tellus.</p>
+    </div>
+</body>
+</html>
+

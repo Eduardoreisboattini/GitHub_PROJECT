@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 06: CSS Transitions and Animations</title>
+    <style>
+        /* CSS Transitions */
+        .transitions {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .transitions:hover {
+            background-color: lightgreen;
+        }
+
+        /* CSS Animations */
+        .animations {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            animation: slide 2s infinite alternate;
+        }
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(100px);
+            }
+        }
+
+        /* Keyframes */
+        .keyframes {
+            width: 150px;
+            height: 150px;
+            background-color: lightsalmon;
+            animation: colorChange 3s infinite;
+        }
+        @keyframes colorChange {
+            0% {
+                background-color: lightsalmon;
+            }
+            50% {
+                background-color: lightseagreen;
+            }
+            100% {
+                background-color: lightsalmon;
+            }
+        }
+
+        /* Animation Timing Functions */
+        .timing-functions {
+            width: 120px;
+            height: 120px;
+            background-color: lightpink;
+            animation: scale 2s ease-in-out infinite alternate;
+        }
+        @keyframes scale {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        /* Animation Tips and Best Practices */
+        .animation-tips {
+            width: 180px;
+            height: 180px;
+            background-color: lightgoldenrodyellow;
+            animation: rotate 4s linear infinite;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="transitions">
+        <h1>CSS Transitions</h1>
+        <p>CSS transitions smoothly animate changes to specified properties, such as background-color.</p>
+    </div>
+
+    <div class="animations">
+        <h1>CSS Animations</h1>
+        <p>CSS animations create more complex and dynamic animations using keyframes.</p>
+    </div>
+
+    <div class="keyframes">
+        <h1>Keyframes</h1>
+        <p>Keyframes define the stages and properties of an animation's progression.</p>
+    </div>
+
+    <div class="timing-functions">
+        <h1>Animation Timing Functions</h1>
+        <p>Timing functions control the acceleration and deceleration of animations.</p>
+    </div>
+
+    <div class="animation-tips">
+        <h1>Animation Tips and Best Practices</h1>
+        <p>Tips and best practices help create smooth, performant, and visually appealing animations.</p>
+    </div>
+</body>
+</html>
+

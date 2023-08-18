@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 04: CSS Layouts</title>
+    <style>
+        /* Positioning Elements */
+        .positioning {
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+
+        /* Display Property */
+        .display {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightgray;
+        }
+
+        /* Float and Clear */
+        .float-clear {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin-right: 20px;
+        }
+        .clear {
+            clear: both;
+        }
+
+        /* Flexbox */
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .flex-item {
+            flex: 1;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+
+        /* Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .grid-item {
+            padding: 10px;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="positioning">
+        <h1>Positioning Elements</h1>
+        <p>The position property allows precise placement of elements using top, right, bottom, and left values.</p>
+    </div>
+
+    <div class="display">
+        <h1>Display Property</h1>
+        <p>The display property defines how elements are rendered. Flex and grid layouts are powerful display values.</p>
+    </div>
+
+    <div class="float-clear">
+        <h1>Float and Clear</h1>
+        <p>Float positions an element to the left or right. Clear prevents elements from wrapping around floated elements.</p>
+    </div>
+    <div class="clear"></div>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>Flexbox</h1>
+            <p>Flexbox is a layout model that distributes space along a single axis, making it easy to create flexible layouts.</p>
+        </div>
+        <div class="flex-item">
+            <h1>Flexbox</h1>
+            <p>Flex items within a flex container can be aligned and spaced as needed.</p>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h1>Grid Layout</h1>
+            <p>Grid layout allows you to create complex layouts by defining rows and columns.</p>
+        </div>
+        <div class="grid-item">
+            <h1>Grid Layout</h1>
+            <p>Grid items can span multiple rows or columns, creating versatile layouts.</p>
+        </div>
+        <div class="grid-item">
+            <h1>Grid Layout</h1>
+            <p>Grid also supports alignment and distribution of items within the grid cells.</p>
+        </div>
+    </div>
+</body>
+</html>
+

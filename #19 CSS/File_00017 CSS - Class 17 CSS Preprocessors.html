@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 17: CSS Preprocessors</title>
+    <style>
+        /* Introduction to Sass */
+        .sass-intro {
+            background-color: lightblue;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Sass Variables and Nesting */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .nested-styles {
+            background-color: lightgreen;
+            padding: 20px;
+            color: white;
+        }
+
+        /* Mixins and Functions */
+        @mixin rounded-border($radius) {
+            border-radius: $radius;
+        }
+        .mixin-example {
+            background-color: lightcoral;
+            color: white;
+            padding: 10px;
+            @include rounded-border(5px);
+        }
+
+        /* Importing and Partials */
+        @import 'variables';
+        .imported-styles {
+            background-color: $primary-color;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Advanced Sass Techniques */
+        $gradient-start: #ff9933;
+        $gradient-end: #ff3399;
+        .advanced-techniques {
+            background: linear-gradient(to bottom, $gradient-start, $gradient-end);
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sass-intro">
+        <h1>Introduction to Sass</h1>
+        <p>Sass is a CSS preprocessor that enhances your styling workflow.</p>
+    </div>
+
+    <div class="container">
+        <div class="nested-styles">
+            <h1>Sass Variables and Nesting</h1>
+            <p>Use variables and nesting to write more maintainable and organized styles.</p>
+        </div>
+    </div>
+
+    <div class="mixin-example">
+        <h1>Mixins and Functions</h1>
+        <p>Define reusable code snippets with mixins and use functions for dynamic styles.</p>
+    </div>
+
+    <div class="imported-styles">
+        <h1>Importing and Partials</h1>
+        <p>Import external files and use partials to modularize your Sass code.</p>
+    </div>
+
+    <div class="advanced-techniques">
+        <h1>Advanced Sass Techniques</h1>
+        <p>Apply advanced techniques like using variables in gradients for dynamic styles.</p>
+    </div>
+</body>
+</html>
+

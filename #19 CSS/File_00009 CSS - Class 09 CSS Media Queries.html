@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 09: CSS Media Queries</title>
+    <style>
+        /* Understanding Viewports */
+        .viewport {
+            width: 100%;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        /* Creating Responsive Designs */
+        .responsive-design {
+            max-width: 100%;
+            padding: 20px;
+            background-color: lightgreen;
+        }
+
+        /* Media Query Syntax */
+        @media (max-width: 768px) {
+            .media-query-syntax {
+                background-color: lightcoral;
+            }
+        }
+
+        /* Responsive Images */
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Mobile-First vs. Desktop-First */
+        .mobile-first {
+            font-size: 16px;
+        }
+        @media (min-width: 768px) {
+            .desktop-first {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="viewport">
+        <h1>Understanding Viewports</h1>
+        <p>Viewports define the visible area of a web page on different devices.</p>
+    </div>
+
+    <div class="responsive-design">
+        <h1>Creating Responsive Designs</h1>
+        <p>Responsive designs adapt to various screen sizes, ensuring a consistent user experience.</p>
+    </div>
+
+    <div class="media-query-syntax">
+        <h1>Media Query Syntax</h1>
+        <p>Media queries use conditions to apply styles based on device characteristics, like screen width.</p>
+    </div>
+
+    <img class="responsive-image" src="image.jpg" alt="Responsive Image">
+
+    <div class="mobile-first">
+        <h1>Mobile-First Approach</h1>
+        <p>Mobile-first design prioritizes small screens, and styles are progressively enhanced for larger screens.</p>
+    </div>
+    
+    <div class="desktop-first">
+        <h1>Desktop-First Approach</h1>
+        <p>Desktop-first design starts with larger screens and adapts styles for smaller screens using media queries.</p>
+    </div>
+</body>
+</html>
+

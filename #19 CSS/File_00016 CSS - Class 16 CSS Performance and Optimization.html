@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 16: CSS Performance and Optimization</title>
+    <style>
+        /* Minification and Compression */
+        .minified-css {
+            background-color: lightblue;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Reducing HTTP Requests */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+        .image {
+            width: 100px;
+            height: 100px;
+            background-image: url('image.jpg');
+            background-size: cover;
+        }
+
+        /* CSS Sprites */
+        .sprite-icons {
+            background-image: url('icons-sprite.png');
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+        }
+        .icon-facebook {
+            background-position: 0 0;
+        }
+        .icon-twitter {
+            background-position: -24px 0;
+        }
+        .icon-instagram {
+            background-position: -48px 0;
+        }
+
+        /* Inlining vs. External CSS */
+        .inline-css {
+            background-color: lightgreen;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Critical CSS */
+        .full-page-css {
+            background-color: lightcoral;
+            color: white;
+            padding: 10px;
+        }
+        .critical-css {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="minified-css">
+        <h1>Minification and Compression</h1>
+        <p>Minify and compress CSS to reduce file size and improve loading times.</p>
+    </div>
+
+    <div class="image-container">
+        <div class="image"></div>
+    </div>
+
+    <div>
+        <h1>CSS Sprites</h1>
+        <p>Combine multiple images into a single sprite for fewer HTTP requests.</p>
+        <span class="sprite-icons icon-facebook"></span>
+        <span class="sprite-icons icon-twitter"></span>
+        <span class="sprite-icons icon-instagram"></span>
+    </div>
+
+    <div class="inline-css">
+        <h1>Inlining vs. External CSS</h1>
+        <p>Choose between inlining CSS or using external files based on performance needs.</p>
+    </div>
+
+    <div class="full-page-css">
+        <h1>Critical CSS</h1>
+        <p>Load critical CSS inline for faster initial rendering and defer non-critical styles.</p>
+    </div>
+</body>
+</html>
+

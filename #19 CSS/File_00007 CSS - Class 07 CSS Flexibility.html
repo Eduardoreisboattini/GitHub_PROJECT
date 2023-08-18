@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 07: CSS Flexibility</title>
+    <style>
+        /* Flex Container and Items */
+        .flex-container {
+            display: flex;
+        }
+        .flex-item {
+            padding: 10px;
+            background-color: lightblue;
+        }
+
+        /* Flex Direction and Wrap */
+        .flex-direction-wrap {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 300px;
+        }
+        .flex-direction-wrap div {
+            flex: 1;
+            margin: 5px;
+            background-color: lightgreen;
+        }
+
+        /* Flex Grow, Shrink, and Basis */
+        .flex-grow-shrink-basis {
+            display: flex;
+        }
+        .flex-item-gsb {
+            flex: 1 2 150px;
+            margin: 5px;
+            background-color: lightcoral;
+        }
+
+        /* Aligning and Justifying Content */
+        .align-justify {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+        }
+        .align-justify div {
+            width: 80px;
+            height: 80px;
+            background-color: lightsalmon;
+        }
+
+        /* Nested Flex Layouts */
+        .nested-flex {
+            display: flex;
+        }
+        .nested-flex div {
+            flex: 1;
+            padding: 10px;
+            background-color: lightpink;
+        }
+        .nested-flex .nested {
+            display: flex;
+            flex-direction: column;
+        }
+        .nested-flex .nested div {
+            margin: 5px;
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+
+    <div class="flex-direction-wrap">
+        <div>Flex 1</div>
+        <div>Flex 2</div>
+        <div>Flex 3</div>
+        <div>Flex 4</div>
+    </div>
+
+    <div class="flex-grow-shrink-basis">
+        <div class="flex-item-gsb">Grow 1</div>
+        <div class="flex-item-gsb">Shrink 2</div>
+        <div class="flex-item-gsb">Basis 150px</div>
+    </div>
+
+    <div class="align-justify">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div>
+
+    <div class="nested-flex">
+        <div>Nested Flex 1</div>
+        <div class="nested">
+            <div>Nested Item 1</div>
+            <div>Nested Item 2</div>
+            <div>Nested Item 3</div>
+        </div>
+    </div>
+</body>
+</html>
+

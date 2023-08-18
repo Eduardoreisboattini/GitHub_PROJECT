@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 20: CSS Best Practices and Future Trends</title>
+    <style>
+        /* BEM Methodology */
+        .block {
+            padding: 20px;
+            background-color: lightblue;
+            color: white;
+        }
+        .block__element {
+            margin: 10px;
+            padding: 10px;
+            background-color: lightcoral;
+        }
+
+        /* CSS Architecture */
+        .component {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightgreen;
+            margin: 10px;
+        }
+
+        /* CSS Custom Properties and Theming */
+        :root {
+            --primary-color: lightcoral;
+            --secondary-color: lightblue;
+        }
+        .themed-container {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        /* CSS Houdini */
+        .houdini-element {
+            width: 100px;
+            height: 100px;
+            background-color: lightpink;
+            margin: 10px;
+        }
+
+        /* Emerging CSS Features */
+        .emerging-features {
+            background-color: lightgoldenrodyellow;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <h1>BEM Methodology</h1>
+        <p>Learn about the Block Element Modifier (BEM) methodology for writing scalable and maintainable CSS.</p>
+        <div class="block__element">Block Element</div>
+    </div>
+
+    <div class="component">
+        <h1>CSS Architecture</h1>
+        <p>Explore CSS architecture patterns for structuring and organizing your styles in large projects.</p>
+    </div>
+
+    <div class="themed-container">
+        <h1>CSS Custom Properties and Theming</h1>
+        <p>Utilize CSS custom properties to create themes and manage consistent design across your application.</p>
+    </div>
+
+    <div class="houdini-element">
+        <h1>CSS Houdini</h1>
+        <p>Discover the exciting capabilities of CSS Houdini and its potential for extending CSS with new features.</p>
+    </div>
+
+    <div class="emerging-features">
+        <h1>Emerging CSS Features</h1>
+        <p>Stay updated on the latest emerging CSS features and trends that shape the future of web development.</p>
+    </div>
+</body>
+</html>

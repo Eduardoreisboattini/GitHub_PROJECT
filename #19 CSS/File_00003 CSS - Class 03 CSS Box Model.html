@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 03: CSS Box Model</title>
+    <style>
+        /* Margin and Padding */
+        .margin-padding {
+            margin: 20px;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        /* Border Properties */
+        .border-properties {
+            border: 2px dashed #333;
+            border-radius: 5px;
+        }
+
+        /* Width and Height */
+        .width-height {
+            width: 300px;
+            height: 200px;
+        }
+
+        /* Box Sizing */
+        .box-sizing {
+            box-sizing: border-box;
+            width: 200px;
+            padding: 20px;
+            border: 2px solid #333;
+        }
+
+        /* Margin Collapse */
+        .margin-collapse-container {
+            overflow: auto;
+        }
+        .margin-collapse {
+            margin: 10px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="margin-padding">
+        <h1>Margin and Padding</h1>
+        <p>Margin creates space outside an element, while padding creates space inside an element.</p>
+    </div>
+
+    <div class="border-properties">
+        <h1>Border Properties</h1>
+        <p>Border adds a visual border around an element. Border properties include style, width, color, and radius.</p>
+    </div>
+
+    <div class="width-height">
+        <h1>Width and Height</h1>
+        <p>Width and height set the dimensions of an element's content box.</p>
+    </div>
+
+    <div class="box-sizing">
+        <h1>Box Sizing</h1>
+        <p>Box sizing affects how width and height properties are calculated, including padding and border.</p>
+    </div>
+
+    <div class="margin-collapse-container">
+        <div class="margin-collapse">
+            <h1>Margin Collapse</h1>
+            <p>Margin collapse occurs when adjacent margins of elements combine, creating a smaller margin.</p>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 05: CSS Colors and Backgrounds</title>
+    <style>
+        /* Color Values */
+        .color-values {
+            color: #333; /* Hexadecimal color value */
+            background-color: rgb(255, 0, 0); /* RGB color value */
+        }
+
+        /* Background Properties */
+        .background-properties {
+            background-color: lightgray;
+            background-image: url('background-image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Gradient Backgrounds */
+        .gradient-background {
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+        }
+
+        /* Transparency and Opacity */
+        .transparency-opacity {
+            background-color: rgba(0, 128, 0, 0.7); /* RGBa color value with transparency */
+            opacity: 0.8;
+        }
+
+        /* CSS Image Sprites */
+        .css-sprite {
+            width: 50px;
+            height: 50px;
+            background-image: url('sprites.png');
+            background-position: -50px -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="color-values">
+        <h1>Color Values</h1>
+        <p>CSS offers various color value formats, such as hexadecimal and RGB, to define text and background colors.</p>
+    </div>
+
+    <div class="background-properties">
+        <h1>Background Properties</h1>
+        <p>Background properties control background color, image, repetition, size, and position.</p>
+    </div>
+
+    <div class="gradient-background">
+        <h1>Gradient Backgrounds</h1>
+        <p>Gradients create smooth transitions between two or more colors, enhancing the background.</p>
+    </div>
+
+    <div class="transparency-opacity">
+        <h1>Transparency and Opacity</h1>
+        <p>Transparency can be achieved with RGBA color values or the opacity property, allowing background content to show through.</p>
+    </div>
+
+    <div class="css-sprite">
+        <h1>CSS Image Sprites</h1>
+        <p>CSS image sprites combine multiple images into a single file, reducing server requests and improving performance.</p>
+    </div>
+</body>
+</html>
+
