@@ -1,7 +1,7 @@
 <?php
 
 /*
-Remember to replace your_username, your_password, and your_database with your actual database credentials. This code creates two tables, authors and books, with a one-to-many relationship between them using the author_id foreign key in the books table referencing the author_id primary key in the authors table.*\
+Remember to replace your_username, your_password, and your_database with your actual database credentials. This code creates two tables, authors and books, with a one-to-many relationship between them using the author_id foreign key in the books table referencing the author_id primary key in the authors table.*/
 
 // Database connection
 $servername = "localhost";
