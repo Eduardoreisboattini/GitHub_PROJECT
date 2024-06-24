@@ -45,6 +45,7 @@ footer {
     background-color: #333;
     color: white;
     padding: 20px;
+    font-size: 14px; /* Reduz o tamanho da fonte */
 }
 
 .footer-container {
@@ -65,10 +66,11 @@ footer {
 .footer-menu li a {
     color: white;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 3px 8px; /* Reduz o padding do botão */
     border: 1px solid transparent;
     border-radius: 5px;
     transition: background-color 0.3s, border-color 0.3s;
+    font-size: 12px; /* Reduz o tamanho da fonte */
 }
 
 .footer-menu li a:hover {
@@ -78,6 +80,7 @@ footer {
 
 .footer-disclaimer {
     margin-top: 10px;
+    font-size: 12px; /* Reduz o tamanho da fonte */
 }
 
 /* Estilos específicos para botões de vídeo */
@@ -86,9 +89,10 @@ footer {
     background-color: #007bff;
     color: white;
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 6px 10px; /* Reduz o padding do botão */
     border-radius: 5px;
     margin-bottom: 10px;
+    font-size: 12px; /* Reduz o tamanho da fonte */
 }
 
 .button-video:hover {
