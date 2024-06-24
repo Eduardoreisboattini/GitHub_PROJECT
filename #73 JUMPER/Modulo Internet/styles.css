@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-box {
+    width: 220px; /* Aumentei um pouco a largura para acomodar o logo */
+    height: 180px; /* Ajustei a altura para dar mais espaço */
+    margin: 10px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.link-box:hover {
+    transform: scale(1.05);
+}
+
+.link-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    max-width: 80px; /* Ajuste o tamanho máximo do logo conforme necessário */
+    margin-bottom: 10px; /* Espaçamento entre o logo e o texto */
+}
