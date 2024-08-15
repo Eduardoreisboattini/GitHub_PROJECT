@@ -1,0 +1,23 @@
+from azure.cosmos import CosmosClient
+import pandas as pd
+
+# Configurações de conexão
+url = "https://sua-cosmosdb-conta.documents.azure.com:443/"
+key = 'sua_chave'
+database_name = 'nome_banco_dados'
+container_name = 'nome_container'
+
+# Criando cliente Cosmos
+client = CosmosClient(url, credential=key)
+database = client.get_database_client(database_name)
+container = database.get_container_client(container_name)
+
+# Consulta ao Cosmos DB
+query = "SELECT * FROM c"
+items = list(container.query_items(query=query, enable_cross_partition_query=True))
+
+# Convertendo para DataFrame
+data = pd.DataFrame(items)
+
+# Exibindo as primeiras linhas do DataFrame
+print(data.head())

@@ -1,0 +1,19 @@
+from google.cloud import bigquery
+import pandas as pd
+
+# Configurando o cliente BigQuery
+client = bigquery.Client()
+
+# Consulta SQL
+query = """
+    SELECT *
+    FROM `projeto.dataset.tabela`
+    LIMIT 1000
+"""
+
+# Executando a consulta e obtendo os resultados
+query_job = client.query(query)
+data = query_job.to_dataframe()
+
+# Exibindo as primeiras linhas do DataFrame
+print(data.head())
