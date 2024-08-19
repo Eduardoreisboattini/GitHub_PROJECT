@@ -1,0 +1,15 @@
+pip install requests
+import requests
+
+# URL da API do IBGE
+url = "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2014/variaveis/37?localidades=N1[all]"
+
+# Fazer a requisição
+response = requests.get(url)
+
+# Verificar o status da resposta
+if response.status_code == 200:
+    data = response.json()
+    print(data)
+else:
+    print("Erro na requisição:", response.status_code)
