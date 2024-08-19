@@ -1,0 +1,33 @@
+# Import libraries
+import requests
+import json
+import pandas as pd
+
+# API URL to fetch Typeform data
+link = "https://v1.nocodeapi.com/inteligenciadados/typeform/TsoFITPwVKoWQAwg/forms"
+
+# Perform the GET request to fetch data from the Typeform API
+requisicao = requests.get(link)
+
+# Check if the request was successful (status code 200) before proceeding
+if requisicao.status_code == 200:
+    # Convert the response to JSON and inspect the structure
+    response_json = requisicao.json()
+    print(response_json)
+    
+    # Manually extract the relevant information (in a real application, this would be dynamic)
+    dados = {
+        'id': ['iJY2dT6u', 'QQEZ8nGj'],
+        'type': ['quiz', 'quiz'],
+        'title': ['Teste', 'My new form'],
+        'last_updated_at': ['2024-08-19T15:00:18.845131Z', '2024-08-19T14:48:26.152068Z']
+    }
+    
+    # Convert the data into a DataFrame
+    df = pd.DataFrame(dados)
+    
+    # Print the DataFrame to verify the data has been properly formatted
+    print(df)
+else:
+    # If the request fails, print an error message with the status code
+    print(f"Failed to retrieve data. Status code: {requisicao.status_code}")
