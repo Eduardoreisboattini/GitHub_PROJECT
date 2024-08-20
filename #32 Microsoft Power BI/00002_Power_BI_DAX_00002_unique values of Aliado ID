@@ -1,0 +1,2 @@
+-- This formula counts the unique values of 'Aliado ID'
+Distinct_Aliados = DISTINCTCOUNT('YourTableName'[Aliado ID])

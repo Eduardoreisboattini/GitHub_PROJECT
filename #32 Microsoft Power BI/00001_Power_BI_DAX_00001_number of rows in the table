@@ -1,0 +1,2 @@
+-- This formula calculates the total number of rows in the table
+Total_Entries = COUNTROWS('YourTableName')

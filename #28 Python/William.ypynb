@@ -1,0 +1,25 @@
+import requests
+import json
+
+# Define the API endpoint
+api_url = 'https://api.example.com/endpoint'  # Replace with the actual API URL
+
+# Data to be sent
+dados = {
+    'id': ['iJY2dT6u', 'QQEZ8nGj'],
+    'type': ['quiz', 'quiz'],
+    'title': ['Teste', 'My new form'],
+    'last_updated_at': ['2024-08-19T15:00:18.845131Z', '2024-08-19T14:48:26.152068Z']
+}
+
+# Send a POST request
+response = requests.post(api_url, headers={'Content-Type': 'application/json'}, data=json.dumps(dados))
+
+# Check the response
+if response.status_code == 200:
+    print('Data sent successfully.')
+    print('Response:', response.json())
+else:
+    print('Failed to send data.')
+    print('Status code:', response.status_code)
+    print('Response:', response.text)

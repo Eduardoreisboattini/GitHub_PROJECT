@@ -1,0 +1,2 @@
+-- This formula calculates the average of the 'Dias_GPS' column
+Average_Dias_GPS = AVERAGE('YourTableName'[Dias_GPS])
