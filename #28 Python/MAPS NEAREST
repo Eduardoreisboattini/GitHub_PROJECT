@@ -1,0 +1,70 @@
+import pandas as pd
+import numpy as np
+from math import radians, sin, cos, sqrt, atan2
+import folium
+from folium import plugins
+from shapely.geometry import LineString
+
+# Função vetorizada para calcular distâncias usando Haversine
+def haversine_vectorized(lon1, lat1, lon2, lat2):
+    R = 6371  # Raio da Terra em km
+    dlon = np.radians(lon2 - lon1)
+    dlat = np.radians(lat2 - lat1)
+    a = np.sin(dlat / 2) ** 2 + np.cos(np.radians(lat1)) * np.cos(np.radians(lat2)) * np.sin(dlon / 2) ** 2
+    c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1 - a))
+    return R * c
+
+# Exemplo de criação do dataset (substitua isso com o dataset real do Power BI)
+data = {
+    'Tipo Regiao': ['Metropolitana', 'Interior'],
+    'Outros Dados': [1, 2]  # Exemplo de coluna adicional
+}
+dataset = pd.DataFrame(data)
+
+# Adicionar colunas de latitude e longitude ao dataframe
+coord_map = {
+    'Metropolitana': {'Latitude': -23.5505, 'Longitude': -46.6333},
+    'Interior': {'Latitude': -20.3155, 'Longitude': -40.3128}
+}
+dataset['Latitude'] = dataset['Tipo Regiao'].map(lambda x: coord_map.get(x, {'Latitude': np.nan})['Latitude'])
+dataset['Longitude'] = dataset['Tipo Regiao'].map(lambda x: coord_map.get(x, {'Longitude': np.nan})['Longitude'])
+
+# Criar o mapa base
+m = folium.Map(location=[-23.5505, -46.6333], zoom_start=6)  # Centralizado na primeira coordenada
+
+# Adicionar marcadores ao mapa
+for _, row in dataset.iterrows():
+    folium.Marker(
+        location=[row['Latitude'], row['Longitude']],
+        popup=row['Tipo Regiao'],
+        icon=folium.Icon(color='blue')
+    ).add_to(m)
+
+# Vetorize o cálculo de distâncias
+longitudes = dataset['Longitude'].values
+latitudes = dataset['Latitude'].values
+dist_matrix = np.zeros((len(dataset), len(dataset)))
+
+for i in range(len(dataset)):
+    dist_matrix[i, :] = haversine_vectorized(longitudes[i], latitudes[i], longitudes, latitudes)
+
+# Encontrar os pares mais próximos
+np.fill_diagonal(dist_matrix, np.inf)  # Ignorar distâncias para o mesmo ponto
+min_distance = np.min(dist_matrix)
+closest_points = np.where(dist_matrix == min_distance)
+
+# Criar linhas entre os aliados mais próximos
+for i, j in zip(*closest_points):
+    point1 = [latitudes[i], longitudes[i]]
+    point2 = [latitudes[j], longitudes[j]]
+    folium.PolyLine(
+        locations=[point1, point2],
+        color='red',
+        weight=2
+    ).add_to(m)
+
+# Salvar o mapa em um arquivo HTML
+map_file = 'map.html'
+m.save(map_file)
+
+print(f"Mapa gerado com sucesso. Visualize o arquivo {map_file}.")
