@@ -1,1 +1,80 @@
- 
+
++  // Initialize variables
++  "$schema": "https://developer.microsoft.com/json-schemas/power-bi/report/2.0/PowerBIReport.schema.json",
++  "version": "2.0",
++  "title": "Google Sheets API Data Report",
++  "description": "A report that takes data from Google Sheets and visualizes it in Power BI",
++  "dataSources": [
++    {
++      "name": "Google Sheets Data Source",
++      "connection": {
++        "providerName": "Google Sheets",
++        "connectionString": "Url=https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export?format=csv;gid={SHEET_ID}",
++        "credential": {
++          "type": "OAuth",
++          "clientId": "{CLIENT_ID}",
++          "clientSecret": "{CLIENT_SECRET}",
++          "redirectUri": "http://localhost:8080",
++          "scope": "https://www.googleapis.com/auth/spreadsheets"
++        }
++      }
++    }
++  ],
++  "models": [
++    {
++      "name": "Google Sheets Data Model",
++      "tables": [
++        {
++          "name": "Sheet1",
++          "columns": [
++            {
++              "name": "Column1",
++              "dataType": "string"
++            },
++            {
++              "name": "Column2",
++              "dataType": "number"
++            }
++          ]
++        }
++      ]
++    }
++  ],
++  "reports": [
++    {
++      "name": "Google Sheets API Data Report",
++      "reportEmbedding": {
++        "type": "reportPart",
++        "reportPart": {
++          "target": "new",
++          "reportId": "{REPORT_ID}"
++        }
++      },
++      "visualizations": [
++        {
++          "type": "table",
++          "table": {
++            "rows": [
++              {
++                "cells": [
++                  {
++                    "value": "Column1",
++                    "format": {
++                      "type": "text"
++                    }
++                  },
++                  {
++                    "value": "Column2",
++                    "format": {
++                      "type": "number"
++                    }
++                  }
++                ]
++              }
++            ]
++          }
++        }
++      ]
++    }
++  ]
++}

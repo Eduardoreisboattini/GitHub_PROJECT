@@ -1,1 +1,76 @@
- 
+{
+    "name": "Azure to Power BI",
+    "description": "Transfer data from Azure Blob Storage to Power BI",
+    "type": "api",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.10:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30
+    },
+    "userProperties": [],
+    "variables": {
+        "blobStorageConnectionString": {
+            "type": "string"
+        },
+        "blobStorageContainerName": {
+            "type": "string"
+        },
+        "blobStorageFileName": {
+            "type": "string"
+        },
+        "powerBIApiUrl": {
+            "type": "string"
+        },
+        "powerBIClientId": {
+            "type": "string"
+        },
+        "powerBIClientSecret": {
+            "type": "securestring"
+        },
+        "powerBIDatasetId": {
+            "type": "string"
+        },
+        "powerBITableName": {
+            "type": "string"
+        }
+    },
+    "triggers": {
+        "manual": {
+            "type": "request",
+            "kind": "http",
+            "inputs": {
+                "method": "GET",
+                "uri": "https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/manual/listCallbackUrl?api-version=2016-06-01"
+            }
+        }
+    },
+    "actions": {
+        "getBlob": {
+            "type": "http",
+            "inputs": {
+                "method": "GET",
+                "uri": "@{variables('blobStorageConnectionString')}&blob=@{variables('blobStorageFileName')}"
+            }
+        },
+        "convertToJson": {
+            "type": "json",
+            "inputs": {
+                "content": "@{body('getBlob')}"
+            }
+        },
+        "postToPowerBI": {
+            "type": "http",
+            "inputs": {
+                "method": "POST",
+                "uri": "@{variables('powerBIApiUrl')}/groups/{groupId}/datasets/{datasetId}/tables/{tableName}/rows",
+                "headers": {
+                    "Authorization": "@{concat('Bearer ', variables('powerBIClientSecret'))}",
+                    "Content-Type": "application/json"
+                },
+                "body": "@{body('convertToJson')}"
+            }
+        }
+    },
+    "outputs": {}
+}
