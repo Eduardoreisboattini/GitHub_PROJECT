@@ -1,65 +1,57 @@
-// Incluindo a biblioteca do módulo relé
-#include <Arduino.h>
+#include <opencv2/opencv.hpp>
+#include <Servo.h>
 
-// Definindo os pinos do Arduino conectados ao módulo relé
-const int relay1Pin = 2; // Pino para controlar o primeiro canal do relé
-const int relay2Pin = 3; // Pino para controlar o segundo canal do relé
+using namespace cv;
 
-void setup() {
-  // Inicializa os pinos como saídas
-  pinMode(relay1Pin, OUTPUT);
-  pinMode(relay2Pin, OUTPUT);
+Servo servoHorizontal;
+Servo servoVertical;
 
-  // Desliga as lâmpadas no início (por segurança)
-  digitalWrite(relay1Pin, LOW);
-  digitalWrite(relay2Pin, LOW);
-}
-
-void loop() {
-  // Acende a primeira lâmpada
-  digitalWrite(relay1Pin, HIGH);
-  delay(1000); // Aguarda 1 segundo
-
-  // Apaga a primeira lâmpada
-  digitalWrite(relay1Pin, LOW);
-  delay(1000); // Aguarda 1 segundo
-
-  // Acende a segunda lâmpada
-  digitalWrite(relay2Pin, HIGH);
-  delay(1000); // Aguarda 1 segundo
-
-  // Apaga a segunda lâmpada
-  digitalWrite(relay2Pin, LOW);
-  delay(1000); // Aguarda 1 segundo
-}
-
-#include <Arduino.h> 
-//Esta linha inclui a biblioteca do Arduino, necessária para usar suas funções.
-
-const int relay1Pin = 2; 
-const int relay2Pin = 3; 
-//Estas linhas definem os pinos do Arduino aos quais estão conectados os canais do relé.
+int x = 90;
+int y = 90;
 
 void setup() {
-  pinMode(relay1Pin, OUTPUT); 
-  pinMode(relay2Pin, OUTPUT); 
-  //Estas linhas definem os pinos do Arduino como saídas.
-
-  digitalWrite(relay1Pin, LOW); 
-  digitalWrite(relay2Pin, LOW); 
-  //Estas linhas desligam as lâmpadas no início para garantir que elas não estejam acesas acidentalmente.
+  servoHorizontal.attach(9);
+  servoVertical.attach(10);
 }
 
-void loop() {
-  digitalWrite(relay1Pin, HIGH); 
-  delay(1000); 
-  digitalWrite(relay1Pin, LOW); 
-  delay(1000); 
-  //Estas linhas acendem e apagam a primeira lâmpada com intervalos de 1 segundo.
 
-  digitalWrite(relay2Pin, HIGH); 
-  delay(1000); 
-  digitalWrite(relay2Pin, LOW); 
-  delay(1000); 
-  //Estas linhas acendem e apagam a segunda lâmpada com intervalos de 1 segundo.
+/**
+ * @brief Main loop of the program.
+ *
+ * Captures frames from the default camera, detects faces using the
+ * OpenCV cascade classifier, and moves the servos to the position of
+ * the detected face.
+ */
+
+void loop() {
+  Mat frame;
+  VideoCapture cap(0);
+  
+  if (!cap.isOpened()) {
+    Serial.println("Cannot open the video camera");
+    return;
+  }
+  
+  while (true) {
+    if (!cap.read(frame)) {
+      Serial.println("Cannot read a frame from video stream");
+      break;
+    }
+    
+    CascadeClassifier faceDetector;
+    faceDetector.load("haarcascade_frontalface_default.xml");
+    
+    vector<Rect> faces;
+    faceDetector.detectMultiScale(frame, faces);
+    
+    for (int i = 0; i < faces.size(); i++) {
+      Point center(faces[i].x + faces[i].width / 2, faces[i].y + faces[i].height / 2);
+      
+      x = map(center.x, 0, frame.cols, 0, 180);
+      y = map(center.y, 0, frame.rows, 0, 180);
+      
+      servoHorizontal.write(x);
+      servoVertical.write(y);
+    }
+  }
 }
