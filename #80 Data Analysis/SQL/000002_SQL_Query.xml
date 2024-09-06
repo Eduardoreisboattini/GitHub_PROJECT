@@ -1,0 +1,80 @@
+1. Contar o Total de Grupos
+-- Contar o número total de grupos na tabela gps_purchases
+SELECT COUNT(*) AS TotalGrupos FROM gps_purchases;
+
+2. Contar Grupos por Gênero
+-- Contar o número de grupos agrupados por gênero
+SELECT Genero, COUNT(*) AS ContagemPorGenero FROM gps_purchases GROUP BY Genero;
+
+3. Média de Dias de Participação no Grupo
+-- Calcular a média de dias de participação no grupo
+SELECT AVG(Dias_GPS) AS MediaDiasParticipacao FROM gps_purchases;
+
+4. Total de Grupos por Região
+-- Contar o número de grupos agrupados por região
+SELECT Regiao, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Regiao;
+
+5. Total de Grupos por Cidade
+-- Contar o número de grupos agrupados por cidade
+SELECT Cidade, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Cidade;
+
+6. Total de Grupos por Estado (UF)
+-- Contar o número de grupos agrupados por estado (UF)
+SELECT Uf, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Uf;
+
+7. Total de Grupos por País
+-- Contar o número de grupos agrupados por país
+SELECT Pais, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Pais;
+
+8. Total de Grupos por Data de Criação
+-- Contar o número de grupos agrupados por data de criação
+SELECT Data_Compra, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Data_Compra;
+
+9. Total de Grupos por Origem
+-- Contar o número de grupos agrupados por origem
+SELECT Origem, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Origem;
+
+10. Total de Grupos por Tipo de GPS
+-- Contar o número de grupos agrupados por tipo de GPS
+SELECT GPS, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY GPS;
+
+11. Total de Grupos por Status de Realização
+-- Contar o número de grupos agrupados por status de realização
+SELECT Realizado, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Realizado;
+
+12. Máximo e Mínimo de Dias de Participação no Grupo
+-- Encontrar o máximo e o mínimo de dias de participação no grupo
+SELECT MAX(Dias_GPS) AS MaxDiasParticipacao, MIN(Dias_GPS) AS MinDiasParticipacao FROM gps_purchases;
+
+13. Média de Latitude e Longitude dos Grupos
+-- Calcular a média de latitude e longitude dos grupos
+SELECT AVG(Latitude) AS MediaLatitude, AVG(Longitude) AS MediaLongitude FROM gps_purchases;
+
+14. Listar Todos os Emails Únicos dos Participantes
+-- Listar todos os emails únicos dos participantes
+SELECT DISTINCT Email FROM gps_purchases;
+
+15. Contar Grupos por Micro Região
+-- Contar o número de grupos agrupados por micro região
+SELECT Micro_Regiao, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Micro_Regiao;
+
+16. Contar Grupos por Bairro
+-- Contar o número de grupos agrupados por bairro
+SELECT Bairro, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Bairro;
+
+17. Contar Grupos por Tipo de Região
+-- Contar o número de grupos agrupados por tipo de região
+SELECT Tipo_Regiao, COUNT(*) AS TotalGrupos FROM gps_purchases GROUP BY Tipo_Regiao;
+
+18. Listar Grupos Criados em um Ano Específico
+-- Listar todos os grupos criados no ano de 2022
+SELECT * FROM gps_purchases WHERE YEAR(Data_Compra) = 2022;
+
+19. Listar Grupos com Participantes de um Gênero Específico
+-- Listar todos os grupos com participantes do gênero feminino
+SELECT * FROM gps_purchases WHERE Genero = 'F';
+
+20. Listar Grupos com um Tipo Específico de GPS
+-- Listar todos os grupos com o tipo de GPS 'ACM'
+SELECT * FROM gps_purchases WHERE GPS = 'ACM';
+

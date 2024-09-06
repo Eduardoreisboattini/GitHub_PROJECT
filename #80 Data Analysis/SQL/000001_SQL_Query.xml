@@ -1,0 +1,27 @@
+/*
+      
+*/
+CREATE TABLE product_purchases (
+    product NVARCHAR(50),
+    CLIENTES INT,
+    Aliado_ID INT,
+    Nome_Aliado NVARCHAR(100),
+    Genero CHAR(1),
+    Endereco NVARCHAR(100),
+    Bairro NVARCHAR(50),
+    Cidade NVARCHAR(50),
+    Uf CHAR(2),
+    Pais CHAR(2),
+    Cep NVARCHAR(10),
+    Latitude FLOAT,
+    Longitude FLOAT,
+    Email NVARCHAR(100),
+    Data_Compra DATE,
+    Origem NVARCHAR(50),
+    Regiao NVARCHAR(50),
+    Tipo_Regiao NVARCHAR(50),
+    Micro_Regiao NVARCHAR(50),
+    GPS NVARCHAR(50),
+    Realizado NVARCHAR(50),
+    Dias_GPS INT
+);
