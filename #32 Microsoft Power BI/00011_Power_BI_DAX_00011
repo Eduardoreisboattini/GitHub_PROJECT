@@ -1,0 +1,52 @@
+<<<<<<<<<<<<<<  ✨ Codeium Command ⭐  >>>>>>>>>>>>>>>>
+//Integration with Excel and Power BI Graphics
+Measure 1 = 
+    SUMX(
+        'Table',
+        'Table'[Column 1] * 'Table'[Column 2]
+    )
+
+Measure 2 = 
+    VAR X = SUM('Table'[Column 1])
+    VAR Y = SUM('Table'[Column 2])
+    RETURN
+        X * Y
+
+Measure 3 = 
+    CALCULATE(
+        SUM('Table'[Column 1]),
+        FILTER(
+            'Table',
+            'Table'[Column 2] > EARLIER('Table'[Column 2])
+        )
+    )
+<<<<<<<  85a77cc7-b1d6-4b01-9803-656d6cc229e6  >>>>>>><<<<<<<<<<<<<<<<<<<<<<<< CodeGeeX Inline Diff>>>>>>>>>>>>>>>>>>>>>>>>
++1. To create a DAX code for integration with Excel and Power BI, we need to follow these steps:
++
++2. Step 1: Install necessary packages and dependencies
++   a. Download and install Microsoft Visual Studio Tools for Office (VSTO) from the following link: https://www.microsoft.com/en-us/download/details.aspx?id=48127
++   b. Download and install Microsoft Power BI Desktop from the following link: https://www.microsoft.com/en-us/download/details.aspx?id=45331
++
++3. Step 2: Create a new Excel workbook
++   a. Open Excel and click on "File" > "New" > "Workbook"
++
++4. Step 3: Add data to the Excel workbook
++   a. Insert data into the workbook by either typing it in manually or by importing it from a file.
++
++5. Step 4: Create a Power BI report
++   a. Open Power BI Desktop and click on "File" > "New" > "Report"
++   b. Select the Excel workbook you created in Step 3 as the data source for the Power BI report.
++
++6. Step 5: Write DAX code for data manipulation and analysis
++   a. In the Power BI report, click on "Visualizations" > "Table" to create a table visual.
++   b. In the "Values" section of the table visual, write a DAX expression to perform data manipulation and analysis. For example, you can write a DAX code to calculate the sum of a column or to filter rows based on a condition.
++
++7. Step 6: Visualize the results
++   a. In the Power BI report, click on "Visualizations" > "Chart" or "Map" to create a visual representation of the data in the table visual.
++   b. Customize the appearance and layout of the visualizations as needed.
++
++8. Step 7: Save and share the Power BI report
++   a. Click on "File" > "Save" to save the Power BI report as a .pbix file.
++   b. Share the .pbix file with others to view and analyze the results in their own Power BI Desktop installations.
+
+<<<<<<<<<<<<<<<<<<<<<<<< CodeGeeX Inline Diff>>>>>>>>>>>>>>>>>>>>>>>>

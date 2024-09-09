@@ -1,0 +1,15 @@
+BEGIN TRANSACTION;
+    -- Connect to the JSON file
+    BULK INSERT #temp
+    FROM 'C:\Path\To\Your\File.json'
+    WITH (
+        FORMATFILE = 'C:\Path\To\Your\format.xml',
+        FIRSTROW = 2,
+        IGNOREBLANKROWS = 1
+    );
+
+    -- Do something with the data
+    SELECT * FROM #temp;
+
+    -- Rollback the transaction
+    ROLLBACK TRANSACTION;

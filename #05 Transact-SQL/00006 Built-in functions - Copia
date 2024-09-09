@@ -1,0 +1,9 @@
+SELECT COUNT(*) FROM myTable;
+
+SELECT MIN(myColumn) FROM myTable;
+
+SELECT MAX(myColumn) FROM myTable;
+
+SELECT AVG(myColumn) FROM myTable;
+
+SELECT CONCAT('Hello', ' World');
