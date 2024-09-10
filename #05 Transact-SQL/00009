@@ -1,0 +1,3 @@
+DECLARE @command NVARCHAR(MAX) = '
+sqlcmd -S ' + @@SERVERNAME + ' -d ' + DB_NAME() + ' -Q "SET NOCOUNT ON; SELECT name, object_id, CAST(object_definition(object_id) AS NVARCHAR(MAX)) AS object_definition FROM sys.views"'
+EXEC xp_cmdshell @command;
