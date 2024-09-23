@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial Polars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 50px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f7f7f7;
+            padding: 5px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #f7f7f7;
+            padding: 10px;
+            font-family: monospace;
+        }
+        a {
+            color: #337ab7;
+        }
+    </style>
+</head>
+<body>
+<h1>Tutorial Polars</h1>
+<h2>Introduction to Polars</h2>
+<p>Polars is a fast, in-memory, columnar data processing library written in Rust. It is designed to be highly performant and easy to use. Polars is useful for developers because it provides a convenient and efficient way to process large datasets.</p>
+<h2>Installation and Setup</h2>
+<p>To install Polars, you can use pip: <code>pip install polars</code></p>
+<p>Once installed, you can import it in your Python code with: <code>import polars as pl</code></p>
+<h2>Core Concepts and Components</h2>
+<p>Polars is built around the following core concepts and components:</p>
+<ul>
+    <li><strong>DataFrames</strong>: A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It is the core data structure in Polars.</li>
+    <li><strong>Series</strong>: A Series is a one-dimensional labeled array of values. It is a single column of a DataFrame.</li>
+    <li><strong>Expr</strong>: An Expr is a expression that can be evaluated on a DataFrame or Series. It is used to perform operations such as filtering and sorting.</li>
+</ul>
+<h2>Basic Usage</h2>
+<p>Here is an example of how to create a DataFrame from a dictionary:</p>
+<pre><code>data = {'Name':['John', 'Anna', 'Peter', 'Linda'],'Age':[28,24,35,32],
+        'Country':['USA','UK','Australia','Germany']}
+df = pl.DataFrame(data)
+print(df)</code></pre>
+<p>This will output:</p>
+<pre><code>    Name  Age  Country
+0   John   28      USA
+1   Anna   24       UK
+2  Peter   35  Australia
+3  Linda   32   Germany</code></pre>
+<p>Here is an example of how to filter a DataFrame:</p>
+<pre><code>filtered_df = df.filter(pl.col('Age') > 30)
+print(filtered_df)</code></pre>
+<p>This will output:</p>
+<pre><code>    Name  Age  Country
+2  Peter   35  Australia
+3  Linda   32   Germany</code></pre>
+<h2>Advanced Features</h2>
+<p>Polars has many advanced features, such as:</p>
+<ul>
+    <li><strong>GroupBy</strong>: Polars provides a GroupBy object that allows you to group a DataFrame by one or more columns and perform aggregation operations.</li>
+    <li><strong>Join</strong>: Polars provides a Join object that allows you to join two DataFrames based on a common column.</li>
+    <li><strong>Read/Write</strong>: Polars provides functions to read and write DataFrames to and from a variety of formats, such as CSV, JSON, and Parquet.</li>
+</ul>
+<h2>Best Practices</h2>
+<p>Here are some best practices for using Polars:</p>
+<ul>
+    <li><strong>Use the correct data type for your columns.</strong></li>
+    <li><strong>Use the <code>filter</code> method to filter DataFrames.</strong></li>
+    <li><strong>Use the <code>groupby</code> method to group DataFrames.</strong></li>
+</ul>
+<h2>Resources and Further Reading</h2>
+<p>Here are some resources for learning more about Polars:</p>
+<ul>
+    <li><a href="https://docs.rs/polars/">Polars documentation</a></li>
+    <li><a href="https://www.rust-lang.org/">Rust language documentation</a></li>
+    <li><a href="https://www.packtpub.com/product/rust-crash-course/9781787284937">Rust Crash Course book</a></li>
+</ul>
+<h2>Conclusion</h2>
+<p>In this tutorial, we covered the basics of Polars, including its installation, core concepts, and basic usage. We also discussed some advanced features and best practices for using Polars effectively.</p>
+<p>We hope this tutorial has been helpful in getting you started with Polars. For further learning, we recommend exploring the resources listed above and practicing with Polars.</p>
+</body>
+</html>

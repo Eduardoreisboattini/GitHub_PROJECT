@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pandas Tutorial</title>
+</head>
+<body>
+<h1>Pandas Tutorial</h1>
+<p>Pandas is a powerful open source Python library used for data analysis and manipulation. It provides data structures and functions to efficiently handle structured data, including tabular data such as spreadsheets and SQL tables. Pandas is a very powerful tool for data analysis and manipulation, and is widely used in the industry.</p>
+<h2>Installation and Setup</h2>
+<p>To install pandas, you can use pip: <code>pip install pandas</code></p>
+<p>Once installed, you can import it in your Python code with: <code>import pandas as pd</code></p>
+<h2>Core Concepts and Components</h2>
+<p>Pandas is built around two main data structures: Series and DataFrame.</p>
+<ul>
+	<li><strong>Series:</strong> A Series is a one-dimensional labeled array of values. It can be thought of as a single column of a spreadsheet.</li>
+	<li><strong>DataFrame:</strong> A DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It can be thought of as a spreadsheet or SQL table.</li>
+</ul>
+<h2>Basic Usage</h2>
+<p>Here is an example of how to create a DataFrame from a dictionary:</p>
+<pre><code>data = {'Name':['John', 'Anna', 'Peter', 'Linda'],'Age':[28,24,35,32],
+        'Country':['USA','UK','Australia','Germany']}
+df = pd.DataFrame(data)
+print(df)</code></pre>
+<p>This will output:</p>
+<pre><code>     Name  Age    Country
+0    John   28        USA
+1    Anna   24         UK
+2   Peter   35  Australia
+3   Linda   32    Germany</code></pre>
+<h2>Advanced Features</h2>
+<p>Pandas provides many advanced features for data analysis and manipulation, such as:</p>
+<ul>
+	<li>GroupBy: allows you to split data into groups and perform aggregation operations.</li>
+	<li>Merge and Join: allows you to combine data from different DataFrames.</li>
+	<li>Reshaping: allows you to change the shape of the data.</li>
+	<li>Time Series: allows you to perform operations on time series data.</li>
+</ul>
+<h2>Best Practices</h2>
+<p>Here are some best practices for using Pandas:</p>
+<ul>
+	<li>Use descriptive column names.</li>
+	<li>Use the appropriate data type for each column.</li>
+	<li>Use the <code>read_csv()</code> function to read data from a CSV file.</li>
+	<li>Use the <code>to_csv()</code> function to write data to a CSV file.</li>
+</ul>
+<h2>Resources and Further Reading</h2>
+<p>For more information on Pandas, please refer to the official <a href="https://pandas.pydata.org/docs/">documentation</a>.</p>
+<p>Some recommended resources for learning more about Pandas include:</p>
+<ul>
+	<li><a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp's Intro to Python for Data Science course</a></li>
+	<li><a href="https://www.oreilly.com/library/view/python-for-data/9781118105225/">Python for Data Analysis</a> by Wes McKinney (the creator of Pandas)</li>
+	<li><a href="https://www.pluralsight.com/courses/pandas-fundamentals">PluralSight's Pandas Fundamentals course</a></li>
+</ul>
+<h2>Conclusion</h2>
+<p>In conclusion, Pandas is a powerful tool for data analysis and manipulation. It provides data structures and functions to efficiently handle structured data, and is widely used in the industry.</p>
+<p>We hope this tutorial has been helpful in getting you started with Pandas. Happy coding!</p>
+</body>
+</html>
