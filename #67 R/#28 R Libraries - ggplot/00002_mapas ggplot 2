@@ -1,0 +1,8 @@
+library(ggplot2)
+
+ggplot(data = df, aes(x = longitude, y = latitude)) + 
+    geom_point() + 
+    theme_minimal() + 
+    labs(title = "Mapa dos Aliados",
+         x = "Longitude",
+         y = "Latitude")
