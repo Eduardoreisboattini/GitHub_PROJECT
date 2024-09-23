@@ -1,3 +1,4 @@
+import pandas as pd
 import folium
 
 # Load your data
@@ -17,4 +18,3 @@ for index, row in data.iterrows():
     folium.CircleMarker(location=[row['Latitude'], row['Longitude']], radius=1, color='blue').add_to(m)
 
 m
-/
