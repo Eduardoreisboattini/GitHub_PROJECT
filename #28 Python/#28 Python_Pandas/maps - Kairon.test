@@ -1,0 +1,147 @@
+import unittest
+import pandas as pd
+from maps import process_micro_region
+
+class TestProcessMicroRegion(unittest.TestCase):
+    def setUp(self):
+        self.data = pd.DataFrame({
+            'Micro Região': ['A', 'A', 'A', 'B', 'B'],
+            'Latitude': [1.0, 1.1, 1.2, 2.0, 2.1],
+            'Longitude': [2.0, 2.1, 2.2, 3.0, 3.1],
+            'group': [0, 0, 1, 0, 1]
+        })
+
+    def test_group_numbers_are_not_consecutive(self):
+        result = process_micro_region(self.data, 'A', start_group_number=1001)
+        expected_group_numbers = ['GPS-A-1001', 'GPS-A-1001', 'GPS-A-1002']
+        self.assertEqual(list(result[result['Micro Região'] == 'A']['Grupo']), expected_group_numbers)
+
+if __name__ == '__main__':
+    unittest.main()import unittest
+    import pandas as pd
+    
+    from maps import process_micro_region, create_groups_for_all_regions
+    
+    class TestMapsFunctions(unittest.TestCase):
+        def test_missing_coordinates(self):
+            # Create a test DataFrame with missing 'latitude' and 'longitude' fields
+            test_data = pd.DataFrame({
+                'Micro Região': ['Region1', 'Region1', 'Region2', 'Region2'],
+                'Latitude': [None, 1.2345, 2.3456, None],
+                'Longitude': [1.1234, None, 3.4567, 4.5678],
+                'Genero': ['F', 'F', 'M', 'M']
+            })
+    
+            # Create groups for the test data
+            female_groups = create_groups_for_all_regions(test_data[test_data['Genero'] == 'F'], start_group_number=1001)
+            male_groups = create_groups_for_all_regions(test_data[test_data['Genero'] == 'M'], start_group_number=2001)
+    
+            # Combine the results
+            final_groups = pd.concat([female_groups, male_groups], ignore_index=True)
+    
+            # Check if any rows have missing 'latitude' or 'longitude' fields
+            self.assertFalse(final_groups[['Latitude', 'Longitude']].isnull().any().any())
+    
+    if __name__ == '__main__':
+        unittest.main()import pandas as pd
+        import numpy as np
+        
+        # Mock the process_micro_region function
+        def process_micro_region(df, micro_region, start_group_number=1001):
+            # Mock implementation for testing
+            pass
+        
+        # Mock the create_groups_for_all_regions function
+        def create_groups_for_all_regions(data, start_group_number=1001):
+            # Mock implementation for testing
+            pass
+        
+        # Define the test case
+        def test_process_micro_region_invalid_coordinates():
+            # Create a DataFrame with invalid coordinates
+            data = pd.DataFrame({
+                'Latitude': [91, -91, 0],  # Invalid values
+                'Longitude': [181, -181, 0],  # Invalid values
+                'Micro Região': ['Region1', 'Region1', 'Region1'],
+                'Genero': ['F', 'F', 'F']
+            })
+        
+            # Expected result DataFrame with NaN values for invalid coordinates
+            expected_result = pd.DataFrame({
+                'Latitude': [np.nan, np.nan, 0],
+                'Longitude': [np.nan, np.nan, 0],
+                'Micro Região': ['Region1', 'Region1', 'Region1'],
+                'Genero': ['F', 'F', 'F']
+            })
+        
+            # Call the process_micro_region function with the invalid coordinates DataFrame
+            result = process_micro_region(data, 'Region1')
+        
+            # Assert that the result DataFrame has the expected NaN values for invalid coordinates
+            pd.testing.assert_frame_equal(result, expected_result)
+        
+        # Run the test case
+        test_process_micro_region_invalid_coordinates()import unittest
+        import pandas as pd
+        from maps import process_micro_region, create_groups_for_all_regions
+        
+        class TestMaps(unittest.TestCase):
+            def test_process_micro_region_with_invalid_gender(self):
+                # Given
+                test_data = pd.DataFrame({
+                    'Genero': ['F', 'M', 'X'],
+                    'Micro Região': ['A', 'A', 'A'],
+                    'Latitude': [1.0, 2.0, 3.0],
+                    'Longitude': [4.0, 5.0, 6.0]
+                })
+                
+                # When
+                with self.assertRaises(ValueError) as context:
+                    process_micro_region(test_data, 'A')
+                
+                # Then
+                self.assertEqual(str(context.exception), "Invalid gender value found in the data.")
+        
+        if __name__ == '__main__':
+            unittest.main()import unittest
+            import pandas as pd
+            from maps import process_micro_region
+            
+            class TestProcessMicroRegion(unittest.TestCase):
+                def setUp(self):
+                    # Create a sample DataFrame with non-alphabetic characters in 'Micro Região' field
+                    self.data = pd.DataFrame({
+                        'Micro Região': ['Região 1', 'Região 2', 'Região 1', 'Região 3', 'Região 2'],
+                        'Latitude': [10, 20, 15, 25, 22],
+                        'Longitude': [30, 40, 35, 45, 42]
+                    })
+            
+                def test_non_alphabetic_micro_region(self):
+                    # Test with a micro-region containing non-alphabetic characters
+                    result = process_micro_region(self.data, 'Região 1')
+                    self.assertEqual(len(result), 2)  # Ensure that the correct number of rows are returned
+                    self.assertTrue('Grupo' in result.columns)  # Ensure that the 'Grupo' column is present
+            
+            if __name__ == '__main__':
+                unittest.main()import unittest
+                import pandas as pd
+                from maps import process_micro_region
+                
+                class TestProcessMicroRegion(unittest.TestCase):
+                    def setUp(self):
+                        self.test_data = pd.DataFrame({
+                            'Micro Região': ['Region1', 'Region1', 'Region2', 'Region2', ' ', '   '],
+                            'Latitude': [1.0, 2.0, 3.0, 4.0, 5.0, 6.0],
+                            'Longitude': [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
+                        })
+                
+                    def test_empty_micro_region(self):
+                        result = process_micro_region(self.test_data, ' ')
+                        self.assertEqual(result.shape[0], 0, "Expected empty DataFrame for empty micro-region")
+                
+                    def test_whitespace_micro_region(self):
+                        result = process_micro_region(self.test_data, '   ')
+                        self.assertEqual(result.shape[0], 0, "Expected empty DataFrame for micro-region containing only whitespace")
+                
+                if __name__ == '__main__':
+                    unittest.main()

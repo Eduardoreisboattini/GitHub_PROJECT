@@ -1,0 +1,59 @@
+# Re-attempting by processing each micro-region separately and saving the results incrementally
+import pandas as pd
+from sklearn.cluster import DBSCAN
+
+# Load the uploaded file again
+file_path = '/mnt/data/teste_gpt - Copia.xlsx'
+data = pd.read_excel(file_path)
+
+# Separate the data by gender
+female_data = data[data['Genero'] == 'F'].reset_index(drop=True)
+male_data = data[data['Genero'] == 'M'].reset_index(drop=True)
+
+def process_micro_region(df, micro_region, start_group_number=1001):
+    # Filter data for the specific micro-region
+    region_data = df[df['Micro Região'] == micro_region].reset_index(drop=True)
+    coords = list(zip(region_data['Latitude'], region_data['Longitude']))
+
+    # Apply DBSCAN clustering within this region
+    kms_per_radian = 6371.0088
+    epsilon = 150 / kms_per_radian  # 150 km converted to radians
+    db = DBSCAN(eps=epsilon, min_samples=1, algorithm='ball_tree', metric='haversine').fit(pd.DataFrame(coords))
+
+    region_data['group'] = db.labels_
+
+    group_list = []
+    for group_number in region_data['group'].unique():
+        group_data = region_data[region_data['group'] == group_number]
+        chunks = [group_data.iloc[i:i + 30] for i in range(0, len(group_data), 30)]
+
+        for idx, chunk in enumerate(chunks):
+            chunk['Grupo'] = f"GPS-{micro_region}-{start_group_number}"
+            start_group_number += 1
+            group_list.append(chunk)
+
+    return pd.concat(group_list, ignore_index=True)
+
+def create_groups_for_all_regions(data, start_group_number=1001):
+    all_micro_regions = data['Micro Região'].unique()
+    all_groups = pd.DataFrame()
+
+    for region in all_micro_regions:
+        region_groups = process_micro_region(data, region, start_group_number)
+        start_group_number = int(region_groups['Grupo'].str.extract(r'(\d+)$').max()) + 1  # Update start group number
+        all_groups = pd.concat([all_groups, region_groups], ignore_index=True)
+
+    return all_groups
+
+# Create groups for female and male data separately
+female_groups = create_groups_for_all_regions(female_data, start_group_number=1001)
+male_groups = create_groups_for_all_regions(male_data, start_group_number=2001)
+
+# Combine the results
+final_groups = pd.concat([female_groups, male_groups], ignore_index=True)
+
+# Save the result to a CSV file for download
+output_csv_path = '/mnt/data/segmented_groups_divided.csv'
+final_groups.to_csv(output_csv_path, index=False)
+
+output_csv_path
