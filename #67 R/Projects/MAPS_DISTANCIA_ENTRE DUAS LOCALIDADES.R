@@ -35,3 +35,5 @@ leaflet() %>%
 + addPolylines(lng = c(morumbi_coords[1], castelao_coords[1]), lat = c(morumbi_coords[2], castelao_coords[2]), color = "orange") %>%
 + addPolylines(lng = c(morumbi_coords[1], beira_rio_coords[1]), lat = c(morumbi_coords[2], beira_rio_coords[2]), color = "black") %>%
 + addPolylines(lng = c(morumbi_coords[1], mane_garrincha_coords[1]), lat = c(morumbi_coords[2], mane_garrincha_coords[2]), color = "magenta") %>% 
+  
+  

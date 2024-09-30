@@ -1,0 +1,24 @@
+## Copilot
+Sure, let's create a master class on understanding the mechanics of a Golden Ticket attack, focusing on the key concepts of Kerberos authentication in modern Active Directory environments.
+Master Class: Understanding Golden Ticket AttacksModule 1: Introduction to Kerberos Authentication- Overview of Kerberos: A ticket-based authentication system used in Active Directory environments.
+- Key Components:
+    - Key Distribution Center (KDC): Typically the Domain Controller (DC).
+    - Ticket Granting Ticket (TGT): Allows users access to network resources.
+    - Ticket Granting Service (TGS): Service tickets for accessing specific network resources.
+Module 2: How Kerberos Authentication Works- Step-by-Step Process:
+    - User Authentication Request: User sends a request to the KDC to authenticate to the Active Directory domain.
+    - KDC Response: KDC verifies the user's identity and responds with an encrypted TGT and a session key.
+    - Service Ticket Request: User requests a TGS to access a network resource.
+    - KDC Verification: KDC verifies the user's access rights and replies with a TGS encrypted with the user's session key.
+    - Resource Access: User uses the TGS to authenticate to a service and access the network resource.
+Module 3: Understanding Golden Ticket Attacks- What is a Golden Ticket Attack?: An attack where an attacker forges TGTs to gain unauthorized access to network resources.
+- Mechanics of the Attack:
+    - KRBTGT Account: The attacker needs the KRBTGT account's password hash to forge TGTs.
+    - Forging TGTs: Using the KRBTGT hash, the attacker creates valid TGTs for any user, gaining unrestricted access.
+Module 4: Mitigation Strategies- Regularly Rotate KRBTGT Passwords: To limit the lifespan of compromised hashes.
+- Monitor for Unusual Activity: Look for signs of forged TGTs and unauthorized access.
+- Implement Strong Security Policies: Ensure robust authentication and authorization mechanisms.
+Module 5: Practical Demonstration- Simulated Attack Scenario: Walkthrough of a Golden Ticket attack in a controlled environment.
+- Defense Techniques: Demonstrate how to detect and respond to such attacks.
+Module 6: Q&A and Discussion- Interactive Session: Address questions and discuss real-world scenarios and experiences.
+Feel free to ask if you need more details on any specific part or if there's anything else you'd like to add!
